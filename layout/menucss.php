@@ -1,6 +1,6 @@
 <div class="topnav" id="myTopnav">
         
-<a href="../../index.html" class="active">Inicio</a>
+<a href="../Index.html" class="active">Inicio</a>
         
 
 
@@ -44,8 +44,8 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="../../css/BoxModel/modeloX.php">Modelo X</a>
-            <a href="../../css/BoxModel/modeloY.php">Modelo Y</a>
+            <a href="boxmodel/modeloX/modeloX.php">Modelo X</a>
+            <a href="boxmodel/modeloY/modeloY.php">Modelo Y</a>
             <a href="../../css/BoxModel/portada-A.php">Deportes</a>
             <a href="../../css/BoxModel/operadora.php">Operadora (Lidertel)</a>
             <a href="#">Optativa 2</a>

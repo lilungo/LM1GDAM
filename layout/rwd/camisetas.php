@@ -31,6 +31,10 @@ coma">
 
 include '../menucss.css';?>
 
+<?php include '../menucss.php';?>
+
+
+
 
 
  <style>
@@ -38,7 +42,7 @@ include '../menucss.css';?>
     
     body {margin:0;font-family:Arial}
 
-    nav{ position: -webkit-sticky; /* Safari */
+    nav{ position: -webkit-sticky; 
       position: sticky;}
     
     .topnav {
@@ -268,27 +272,18 @@ display:inline-block;
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="../../layout/BoxModel/modeloX.php">Modelo X</a>
+            <a href="../boxmodel/modeloX/modeloX.php">Modelo X</a>
             <a href="../../css/BoxModel/modeloY.php">Modelo Y</a>
             <a href="../../css/BoxModel/portada-A.php">Deportes</a>
             <a href="../../css/BoxModel/operadora.php">Operadora (Lidertel)</a>
             <a href="#">Optativa 2</a>
           </div>
         </div> 
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
+        </div> 
+       
       
            
-      <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>      
+       
 
 
 </nav>

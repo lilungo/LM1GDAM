@@ -1,0 +1,77 @@
+body{
+text-align: center;
+}
+  
+
+.webo{
+
+width: 50px;
+height: 50px;
+
+}
+
+
+
+div{
+
+    border: 2px solid black;
+}
+
+.cajota{
+
+margin-top: 50px;
+margin-left: 300px;
+margin-right: 300px;
+
+}
+
+.caja1{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+
+
+}
+.caja2{
+    background-image: url(https://img.freepik.com/foto-gratis/nube-blanca-cielo-azul_74190-2381.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ margin-left: 10px;
+ margin-right: 10px;
+margin-top: 5px;
+height: 100px;    
+ }
+
+.caja3{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+        
+}
+.caja4{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+}
+.caja5{
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+width: 40%;
+              
+}
+.caja6{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+    }
+    .caja7{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+        
+        }    

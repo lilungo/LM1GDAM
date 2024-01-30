@@ -46,7 +46,7 @@
           <div class="dropdown-content">
             <a href="../../boxmodel/modeloX/modeloX.php">Modelo X</a>
             <a href="../../boxmodel/modeloY/modeloY.php">Modelo Y</a>
-            <a href="../../css/BoxModel/portada-A.php">Deportes</a>
+            <a href="../../boxmodel/deportes/deportes.php">Deportes</a>
             <a href="../../boxmodel/operadora/operadora.php">Operadora (Lidertel)</a>
             <a href="#">Optativa 2</a>
           </div>

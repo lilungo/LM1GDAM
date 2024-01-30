@@ -1,50 +1,144 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="es">
+<html lang="es">
 
-<head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <head>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ModeloX</title>
-    
-    <meta name="title" content="Como máximo 55 caracteres incluyendo
-espacios en blanco, mismo contenido que para title">
-    <meta name="description" content="Como máximo 110 caracteres
-incluyendo espacios en blanco, éste es el resumen que mostrará google en los resultados de búsqueda">
-   
-    <meta name="keywords" content="palabras clave separadas por
-coma">
-    <meta name="author" content="Hugo Rivera">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="../htmlCss/favicon.ico" sizes="16x16"/>
+        <meta name="language" content="es" />
+        <title>Model-X</title>
+        <meta name="Title" content= "DAM, JAVASCRIPT, PHP, HTML, CSS, XAMPP" />
+        <meta name="description" content="Model-X" />
+        <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, Hease, WEB, Accesibilidad" />
+        <meta name="distribution" content="global" />
+        <meta name="author" content="Hugo Rivera" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="modeloX.css">
 
-    <link rel="stylesheet" type="text/css" href="../reset.css">
-<link rel = "stylesheet" type ="text/css" href="../../menucss.css">
+        <style>
+            <?php include '../../menucss.css';?> 
+        </style>
 
-    <link rel="stylesheet" type="text/css" href="modeloX.css">
+    </head>
 
-   
+    <body>
 
-</head>
+    <header>
 
-<?php include '../../libreriascss.php';?>
-<?php include '../../menucss.php';?>
+        <?php include '../../menucss.php';?> 
 
-<body>
-<span id="arriba"></span>
-<div class = cajota>
-<h1>Sketch - Modelo X FIJO (992px)</h1>
+    </header>
 
+        <main>
+            
+            <section>
 
+                <article class="article-1">
 
-    <div class= caja1><img class = webo src = ../../img/humpty.png alt = "humpty dumpty"></div>
-    <div class = caja2></div>
-    <div class = caja3> <button><a href ="https://www.tabacosmadrid.es/">Tabaco</a></button> || <button><a href ="https://www.eloroverde.com/70-mecheros">Mecheros</a></button> || <button><a href ="https://www.eloroverde.com/89-setas-de-la-risa">Champiñones</a></button></div>
-    <div class = caja4>
-        <div class = caja5>=Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nostrum alias magnam et, mollitia doloribus aut sit, voluptas architecto asperiores nobis cum dolore quam est quisquam praesentium totam in! Nulla! </div>
-            <div class = caja6>=Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto quam cumque rem quis asperiores error maxime neque officia necessitatibus facere consequatur, ea quod eos voluptatibus cum expedita sunt consequuntur.</div>
-</div>
-<div class = caja7> Hecho por Hugo Rivera el mas guapo</div>
+                    <div  class="one">
+                        <img class="mc" src="../../img/humpty.png" alt="logotipo">
+                    </div>
 
+                    <div class="two"></div>
 
+                    <div class="a-3">
+                        <div class="a"><a target="_blank" href="https://fundaciondelcorazon.com/prevencion/riesgo-cardiovascular/fumar-tabaco-tabaquismo.html">Tabaco</a>     <a target="_blank" href="https://www.growshop.es/">Herbolario</a>    <a target="_blank" href="https://www.directoalpaladar.com/ingredientes-y-alimentos/las-31-mejores-recetas-de-champinones-de-directo-al-paladar">Champiñones</a></div>
+                    </div>
 
+                </article>
+
+                <article class="article-2">
+
+                    <h1> Macarrones</h1>
+
+                    <div class="article-2-mainDiv">
+                        <div class="two-1">
+                            <p>=Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas officiis ipsa aperiam assumenda sunt quos itaque ducimus sapiente? Quas consequatur, perspiciatis harum consequuntur debitis asperiores eaque deserunt modi molestias? De las glorias deportivas
+Que campean por España
+Va el Madrid con su bandera
+Limpia y blanca que no empaña
+Club castizo y generoso
+Todo nervio y corazón
+Veteranos y noveles
+Veteranos y noveles
+Miran siempre tus laureles
+Con respeto y emoción
+¡Hala Madrid!
+¡Hala Madrid!
+Noble y bélico adalid
+Caballero del honor </p>
+                        </div>
+                        <div class="two-2">
+                        <p>
+                           De las glorias deportivas Que campean por España 
+                        
+Va el Madrid con su bandera
+Limpia y blanca que no empaña
+Club castizo y generoso
+Todo nervio y corazón
+Veteranos y noveles
+Veteranos y noveles
+Miran siempre tus laureles
+Con respeto y emoción
+¡Hala Madrid!
+¡Hala Madrid!
+Noble y bélico adalid
+Caballero del honor
+De las glorias deportivas
+Que campean por España
+Va el Madrid con su bandera
+Limpia y blanca que no empaña
+Club castizo y generoso
+Todo nervio y corazón
+Veteranos y noveles
+Veteranos y noveles
+De las glorias deportivas
+Que campean por España
+Va el Madrid con su bandera
+Limpia y blanca que no empaña
+Club castizo y generoso
+Todo nervio y corazón
+Veteranos y noveles
+Veteranos y noveles
+Miran siempre tus laureles
+Con respeto y emoción
+¡Hala Madrid!
+¡Hala Madrid!
+Noble y bélico adalid
+Caballero del honor
+Miran siempre tus laureles
+Con respeto y emoción
+¡Hala Madrid!
+¡Hala Madrid!
+Noble y bélico adalid
+Caballero del honor
+De las glorias deportivas
+Que campean por España
+Va el Madrid con su bandera
+Limpia y blanca que no empaña
+Club castizo y generoso
+Todo nervio y corazón
+Veteranos y noveles
+Veteranos y noveles
+Miran siempre tus laureles
+Con respeto y emoción
+
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <footer>
+
+                    <p>Hecha por Hugo Rivera, 2024 </p>
+
+                </footer>
+
+            </section>
+
+        </main>
+
+    </body>
+
+</html>

@@ -273,7 +273,7 @@ display:inline-block;
           </button>
           <div class="dropdown-content">
             <a href="../boxmodel/modeloX/modeloX.php">Modelo X</a>
-            <a href="../../css/BoxModel/modeloY.php">Modelo Y</a>
+            <a href="../boxmodel/modeloY/modeloY.php">Modelo Y</a>
             <a href="../../css/BoxModel/portada-A.php">Deportes</a>
             <a href="../../css/BoxModel/operadora.php">Operadora (Lidertel)</a>
             <a href="#">Optativa 2</a>

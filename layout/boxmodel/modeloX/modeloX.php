@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <link rel="icon" type="image/png" href="../htmlCss/favicon.ico" sizes="16x16"/>
         <meta name="language" content="es" />
-        <title>Model-X</title>
+        <title>ModeloX</title>
         <meta name="Title" content= "DAM, JAVASCRIPT, PHP, HTML, CSS, XAMPP" />
         <meta name="description" content="Model-X" />
         <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, Hease, WEB, Accesibilidad" />

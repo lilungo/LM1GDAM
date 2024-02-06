@@ -1,0 +1,145 @@
+
+
+body{
+background-image: url("https://hips.hearstapps.com/hmg-prod/images/2024-mercedes-benz-gls-class-101-642b77729761e.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+main{
+
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+ 
+   
+
+}
+
+.div-one{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+.mercedes-section-one{
+
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+
+text-align: center;
+
+}
+
+.article-two{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+border: hidden
+border-radius: 5%;
+justify-content: space-around;
+
+
+}
+
+.section-two-div, .section-two-div-2 > p{
+
+text-align: center;
+    
+}
+
+.section-one{
+
+display: flex;
+flex-direction: row;
+margin-bottom: 100px;
+
+}
+.section-two{
+
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+.section-two-div, .section-three-div{
+
+margin-right: 80px;
+
+}
+
+.section-two-div, .section-two-div-2, .section-three-div, .section-three-div-2{
+
+border: hidden;
+background-color: rgb(197, 196, 196);
+
+}
+
+
+.img-one, .img-two, .img-three, .img-four{
+
+width: 350px;
+height: 200px;
+}
+
+
+
+.section-three-div, .section-three-div-2 > p{
+
+text-align: center;
+
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Lato;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #014080;
+padding: 10px 30px;
+border: solid #ffffff 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #0066cc;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+
+
+
+                
+                
+
+
+

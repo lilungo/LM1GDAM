@@ -1,7 +1,6 @@
 *{
     font-size: 1em;
     line-height: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: normal;
     margin: 0;
     box-sizing: border-box;
@@ -94,7 +93,7 @@ margin-bottom: 60px;
     font-size: 30px;
 }
 
-.tenis {
+.veloz {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -140,7 +139,7 @@ h4 {
     margin-top: 40px;
 }
 
-.input-one {
+.input1 {
     margin-top: 15px;
     width: 100%;
 }
@@ -150,11 +149,11 @@ h4 {
     width: 100%;
 }
 
-.input-two {
+.input2 {
     width: 40%;
 }
 
-.input-third {
+.input3 {
     width: 57%;
     margin-left: 25px;
 }

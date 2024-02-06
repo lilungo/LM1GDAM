@@ -55,7 +55,7 @@
 
                 <div class="operadora-section-4-div">
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw5wVS9MtcBnMT_QNCGVQx4CgIwKpgeYKjOdTNB2M12mrUibgROX84rQwCNROun8-IzsU&usqp=CAU" alt="tenis" class="tenis">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw5wVS9MtcBnMT_QNCGVQx4CgIwKpgeYKjOdTNB2M12mrUibgROX84rQwCNROun8-IzsU&usqp=CAU" alt="velocidad" class="veloz">
                     <h4>Velocidad</h4>
                     <p>Yoigo ofrece <br>velocidad y servicio <br> a todos sus usuarios.</p>
 
@@ -63,7 +63,7 @@
 
                 <div class="operadora-section-4-div">
 
-                    <img src="https://i.blogs.es/fd8248/nueva-tarifa-sinfin-infinita-sin-fibra-de-yoigo/1366_2000.jpg" alt="tenis" class="tenis">
+                    <img src="https://i.blogs.es/fd8248/nueva-tarifa-sinfin-infinita-sin-fibra-de-yoigo/1366_2000.jpg" alt="Llamadas" class="veloz">
                     <h4>Llamadas y datos <br> ilimitados</h4>
                     <p>Yoigo ofrece un plan <br> de llamadas y datos <br>ilimitados.</p>
 
@@ -71,7 +71,7 @@
 
                 <div class="operadora-section-4-div">
 
-                    <img src="https://bloygo.yoigo.com/embed/df1fc82eb3c7d39a20326a8ac04c73e177211599650111/2020-Agosto-Portada-5G-v3.jpg" alt="tenis" class="tenis">
+                    <img src="https://bloygo.yoigo.com/embed/df1fc82eb3c7d39a20326a8ac04c73e177211599650111/2020-Agosto-Portada-5G-v3.jpg" alt="5G" class="veloz">
                     <h4>La experiencia de <br> tener 5G</h4>
                     <p>Yoigo ya dispone de 5g<br>disfruta de la experiencia<br>de la nueva tecnología.</p>
 
@@ -79,7 +79,7 @@
 
                 <div class="operadora-section-4-div">
 
-                    <img src="https://ofertayoigo.com/img/common/mainbanner-terminal-redmi@2x.png" alt="tenis" class="tenis">
+                    <img src="https://ofertayoigo.com/img/common/mainbanner-terminal-redmi@2x.png" alt="Ofertas" class="veloz">
                     <h4>Disfruta de ofertas</h4>
                     <p>Yoigo dispone de montones<br> de ofertas, ¡escoge<br> la que prefieras!</p>
 
@@ -100,11 +100,11 @@
         <form>
             <section class="last-section">
         
-                <p>Contactaremos contigo para proporcionarle mas infirmación.</p>
-                <input class="input-one" placeholder="Nombre y Apellidos">
+                <p>Contactaremos contigo para proporcionarle mas información.</p>
+                <input class="input1" placeholder="Nombre y Apellidos">
                 <div class="last-section-div-one">
-                <input class="input-two" placeholder="Nº teléfono de contacto">
-                <input class="input-third" placeholder="Correo electrónico">
+                <input class="input2" placeholder="Nº teléfono de contacto">
+                <input class="input3" placeholder="Correo electrónico">
                 </div>
                 <div class="third-div">
                 <label><input type="checkbox"> He leído y acepto la <a href="#">política de privacidad</a> </label>
@@ -118,10 +118,11 @@
         </form>
 
         <footer>
-            <a href="#">Política de privacidad</a>
-            <p>Yoigo</p>
+            <a href ="#">Política de privacidad</a>
         </footer>
 
         </main>
 
     </body>
+
+    </html>

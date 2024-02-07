@@ -34,7 +34,7 @@
             <div class="dropdown-content">
               <a href="../../flexbox/coches/coches.php">Coches</a>
               <a href="../../css/flexbox/protonvpn.php">Proton VPN</a>
-              <a href="../../css/flexbox/operadora-flex.php">Operadora</a>
+              <a href="../../flexbox/operadoraflex/operadoraflex.php">Operadora</a>
               
             </div>
           </div> 

@@ -1,15 +1,20 @@
 
-    main{
 
+.todo{max-width: 992px;
+margin: auto;
+margin-top: 1rem;}
+
+
+    main{
 display: flex;
-flex-wrap: wrap;
+flex-flow: row   wrap;
 justify-content: center;
-flex-direction: column;
-margin-top: 50px;
+
+
 }
 
 .article-one{
-
+border: solid black 1px;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
@@ -18,10 +23,12 @@ align-items: center;
 
 }
 
-.article-one>img {
+.wifi {
+    width: 40px;
+    height: 110px;
+}
 
-width: 200px;
-height: 90px;
-
+.article-one img {
+width: 150px;
 }
 

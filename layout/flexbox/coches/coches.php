@@ -32,6 +32,8 @@
 
     </header>
 
+    <div class="todo">
+
     <main>
         <article class=article-one>
             <div class="div-one">
@@ -99,7 +101,11 @@
 
 
         </article>
-        <footer>
+        
+    </main>
+</div>
+
+<footer>
 
             <section class=section-four>
                 <img class=mercedes-two src="../../img/mercedes.png" alt="mercedes">
@@ -127,8 +133,6 @@
                 </ul>
 
         </footer>
-    </main>
-
 </body>
 
 </html>

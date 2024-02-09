@@ -1,94 +1,191 @@
-
-
-.todo{max-width: 992px;
-margin: auto;
-margin-top: 1rem;}
-
-
-    main{
-display: flex;
-flex-flow: row   wrap;
-justify-content: center;
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.article-one{
-border: solid black 1px;
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-flex-direction: row;
-align-items: center;
-
+header {
+    margin: 0 auto;
 }
 
-.wifi {
-    width: 40px;
-    height: 110px;
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 992px;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-.article-one img {
-width: 150px;
+.operadora-section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
 }
 
-.div-one{
-
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-margin-top: 4rem;
-
+.masmovil {
+    width: 180px;
+   
 }
+
+.cincog {
+    width: 180px;
+    height: 100px;
+}
+
+.yoigo {
+    width: 180px;
+    
+}
+
+.movil {
+    width: 290px;
+   
+}
+
+.operadora-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
 .operadora-section-2-p{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 70px;
-    margin-bottom: 170px;
 }
+
 span {
     margin-top: 15px;
     font-size: 50px;
-    color: rgb(148, 12, 160);
+    color: rgb(110, 11, 156);
 }
 
-.movil {
-    width: 340px;
-    
-}  
-.p-two {
-        
-        border: 3px dotted rgb(148, 12, 160);
-        border-radius: 20%;
-        padding: 20px;
-        color: rgb(148, 12, 160);
-        text-align: center;
-        font-size: 30px;
-        text-transform: uppercase;
- }
- .b {
-        color: black;
-        font-size: 30px;
+.operadora-section-3, .operadora-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.operadora-section-3 > p, .operadora-section-5 > p {
+    border: 3px dotted rgb(110, 11, 156);
+    border-radius: 16px;
+    padding: 6px;
+    color: rgb(110, 11, 156);;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.b{
+color: black;
+
+
+}
+
+.operadora-section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.operadora-section-4-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .veloz {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
 }
 
-.section-one{
+
+.p-one {
+    margin-top: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 26px;
+}
+
+.p-two {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.last-section{
 
 display: flex;
-flex-flow: row wrap;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
 justify-content: space-between;
-align-items: flex-start;
+
+}
+.last-section>p{
+
 text-align: center;
-width: 100%;
-margin: 0 auto;
- }
+
+
+}
+
+.input1{
+
+  width: 100%;
+  height: 25px;
+
+}
+
+.last-section-div-one{
+
+margin-top: 16px;
+
+
+
+
+
+}
+
+.input2{
+
+width: 30% ;
+float: left;
+
+
+}
+
+.input3{
+
+width: 70%;
+float: right;
+}
+
+.third-div{
+
+
+
+}
 

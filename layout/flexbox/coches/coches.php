@@ -35,7 +35,7 @@
     <div class="todo">
 
     <main>
-        <article class=article-one>
+        
             <div class="div-one">
                 <img class=mercedes-section-one
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mercedes_benz_logo1989.png/640px-Mercedes_benz_logo1989.png"
@@ -93,7 +93,7 @@
                         </div>
                 </section>
 
-            </article>
+            
 
 
             <br><br><br><br><br><br><br><br>

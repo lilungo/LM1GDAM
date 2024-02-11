@@ -157,6 +157,8 @@ text-align: center;
   width: 100%;
   height: 25px;
 
+  margin-top: 20px;
+
 }
 
 .last-section-div-one{
@@ -171,7 +173,7 @@ margin-top: 16px;
 
 .input2{
 
-width: 30% ;
+width: 50% ;
 float: left;
 
 
@@ -180,12 +182,28 @@ float: left;
 .input3{
 
 width: 70%;
-float: right;
+margin-top: 20px;
+}
+
+button{
+
+margin-top: 20px;
+
 }
 
 .third-div{
 
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
 
+margin-top: 20px;
+
+}
+
+.label-two{
+
+margin-top: 20px;
 
 }
 

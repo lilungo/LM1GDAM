@@ -101,6 +101,7 @@ gap: 20px;
 .section-two-div, .section-two-div-2, .section-three-div, .section-three-div-2{
 
 border: hidden;
+color: white;
 border-radius: 3%;
  background: linear-gradient(to bottom right, #b7b7b7 0%, #000000 100%);
 
@@ -133,8 +134,8 @@ text-align: center;
 font-family: Lato;
 font-weight: 0;
 font-size: 14px;
-color: #fff;
-background-color: #1e83e0;
+color: #ffffff;
+background-color: #1ca2e0;
 padding: 10px 30px;
 border: solid #1ca2e0 2px;
 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
@@ -146,6 +147,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 cursor: pointer;
+margin-top: 5px;
 }
 
 .btn:hover{
@@ -154,9 +156,19 @@ transition : 1000ms;
 padding: 10px 50px;
 transform : translateY(-0px);
 background-color: #ffffff;
-color: #0066cc;
+color: #000000;
 border: solid 2px #0066cc;
 }
+
+.btn a{
+
+color: rgb(0, 0, 0);
+
+}
+
+
+
+
 
 .button{
 
@@ -180,7 +192,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
 
 
 }
@@ -198,6 +210,7 @@ flex-direction: column;
 flex-wrap: wrap;
 align-items: center;
 margin-top: 60px;
+margin-right: 30px;
 
 
 }
@@ -212,7 +225,7 @@ margin-top: 60px;
     
     }
 
-.section-five{
+ul{
 
 color: white;
 display: flex;
@@ -220,7 +233,25 @@ flex-direction: column;
 flex-wrap: wrap;
 margin-top: 3px;
 
+
 }
+
+#a-footer{
+
+color: white;
+font-size: large;
+
+
+
+
+}
+
+#a-footer:hover{
+
+color: #1ca2e0;
+
+}
+
 
 
 

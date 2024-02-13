@@ -22,7 +22,7 @@ main{
 }
 
 body{
-background-image: url("https://www.xtrafondos.com/wallpapers/mercedes-amg-gt-s-gris-en-montanas-2484.jpg");
+background-image: url("../../img/mercedesfondo.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center  ;
@@ -104,7 +104,8 @@ border: hidden;
 color: white;
 border-radius: 3%;
  background: linear-gradient(to bottom right, #b7b7b7 0%, #000000 100%);
-
+width: 400px;
+text-align: center;
 
 }
 
@@ -115,7 +116,7 @@ text-transform: uppercase;
 .img-one, .img-two, .img-three, .img-four{
 
 width: 350px;
-height: 200px;
+
 }
 
 

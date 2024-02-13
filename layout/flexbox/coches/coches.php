@@ -50,7 +50,7 @@
                 <section class=section-one>
                     <div class="section-two-div">
                         <img class="img-one"
-                            src="https://www.mercedes-benz.es/content/dam/hq/passengercars/cars/a-class/sedan-v177-fl-pi/modeloverview/08-2023/images/mercedes-benz-a-class-v177-696x392-08-2023.png">
+                            src="../../img/mercesdes-clasea.png">
                         <p> Mercedes Clase A Berlina</p>
                         <div class="button">
                             <button class="btn"><a
@@ -61,7 +61,7 @@
 
                     <div class="section-two-div-2">
                         <img class="img-two"
-                            src="https://www.mercedes-benz.es/content/dam/hq/passengercars/cars/sl/sl-roadster-r232-pi/modeloverview/08-2023/images/mercedes-amg-sl-63-se-perf-r232-modeloverview-696x392-08-2023.png">
+                            src="../../img/mercedesamg63.png">
                         <p>Mercedes AMG SL 63 S E</p>
                         <div class="button">
                             <button class="btn"><a
@@ -74,7 +74,7 @@
                 <section class=section-two>
                     <div class="section-three-div">
                         <img class="img-three"
-                            src="https://www.mercedes-benz.es/content/dam/hq/passengercars/cars/s-class/mercedes-maybach-s-class-z223-pi/modeloverview/10-2022/mercedes-maybach-s-class-z223-modeloverview-696x392-10-2022.png">
+                            src="../../img/mercedesmaybach.png">
                         <p>Mercedes Maybach Clase S</p>
                         <div class="button">
                             <button class="btn"><a
@@ -84,7 +84,7 @@
                     </div>
                     <div class="section-three-div-2">
                         <img class="img-four"
-                            src="https://www.mercedes-benz.com.mx/content/dam/hq/passengercars/cars/gls/mercedes-maybach-gls-x167-pi/overview/modeloverview/09-2022/images/mercedes-maybach-gls-x167-modeloverview-696x392-09-2022.png">
+                            src="../../img/mercedesgls.png">
                         <p>Mercedes Maybach GLS</p>
                         <div class="button">
                             <button class="btn"><a

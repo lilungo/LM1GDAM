@@ -7,10 +7,9 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cambiar el título en cada página</title>
+    <title>La Tostadora</title>
     
-    <meta name="title" content="Como máximo 55 caracteres incluyendo
-espacios en blanco, mismo contenido que para title">
+    <meta name="title" content="La Tostadora">
     <meta name="description" content="Como máximo 110 caracteres
 incluyendo espacios en blanco, éste es el resumen que mostrará google en los resultados de búsqueda">
    
@@ -20,227 +19,131 @@ coma">
 
     <link rel="stylesheet" type="text/css" href="../reset.css">
 
-    <link rel="stylesheet" type="text/css" href="../mainS.css">
+    <link rel="stylesheet" href="camisetas.css">
 
     <?php
 
     include '../libreriascss.php';?>
+
     <style>
-
-<?php
-
-include '../menucss.css';?>
+        <?php include '../menucss.css';
+        ?>
+    </style>
 
 <?php include '../menucss.php';?>
-
-
-
-
-
-<style>
- 
- body {margin:0;font-family:Arial}
- 
- .topnav {
-   overflow: hidden;
-   background-color: #333;
- }
- 
- .topnav a {
-   float: left;
-   display: block;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
- 
- .active {
-   background-color: #04AA6D;
-   color: white;
- }
- 
- .topnav .icon {
-   display: none;
- }
- 
- .dropdown {
-   float: left;
-   overflow: hidden;
- }
- 
- .dropdown .dropbtn {
-   font-size: 17px;    
-   border: none;
-   outline: none;
-   color: white;
-   padding: 14px 16px;
-   background-color: inherit;
-   font-family: inherit;
-   margin: 0;
- }
- 
- .dropdown-content {
-   display: none;
-   position: absolute;
-   background-color: #f9f9f9;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
- }
- 
- .dropdown-content a {
-   float: none;
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block;
-   text-align: left;
- }
- 
- .topnav a:hover, .dropdown:hover .dropbtn {
-   background-color: #555;
-   color: white;
- }
- 
- .dropdown-content a:hover {
-   background-color: #ddd;
-   color: black;
- }
- 
- .dropdown:hover .dropdown-content {
-   display: block;
- }
- 
- @media screen and (max-width: 600px) {
-   .topnav a:not(:first-child), .dropdown .dropbtn {
-     display: none;
-   }
-   .topnav a.icon {
-     float: right;
-     display: block;
-   }
- }
- 
- @media screen and (max-width: 600px) {
-   .topnav.responsive {position: relative;}
-   .topnav.responsive .icon {
-     position: absolute;
-     right: 0;
-     top: 0;
-   }
-   .topnav.responsive a {
-     float: none;
-     display: block;
-     text-align: left;
-   }
-   .topnav.responsive .dropdown {float: none;}
-   .topnav.responsive .dropdown-content {position: relative;}
-   .topnav.responsive .dropdown .dropbtn {
-     display: block;
-     width: 100%;
-     text-align: left;
-   }
- }
-#contenedor {
-background-color: DodgerBlue;
-display: flex;
-/*flex-direction: row;*/
-flex-flow: row wrap;
-height: 300px;
-justify-content: space-between;
-}
-#contenedor div {
-
-background-color: #f1f1f1;
-margin: 10px;
-padding: 20px;
-font-size: 30px;
-}
-main {
-/* width:80%;
-margin:100px auto;
-background-color:yellow; */
-}
-</style> 
-
 </head>
 
 <body>
-<span id="arriba"></span>
-<nav>
 
-    <div class="topnav" id="myTopnav">
-        
-<a href="../../Index.html" class="active">Inicio</a>
+<header>
+<iframe  src="https://www.youtube.com/embed/wS-x6vcpkr4?si=lwV_c9VlNdptwXik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</header>
 
-<a href="../../Index.html" class="dropdown">Parallax</a>
+<main>
 
-<a href="../../Index.html" class="dropdown">Bootstrap</a>
-        
-        <div class="dropdown">
-            <button class="dropbtn">Rwd & Awd 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Camisetas</a>
-              <a href="../../css/RWD/Detalle-Pelicula.php">Película</a>
-              <a href="https://solired.es/openaula/Promociones/Promocion-2023-GDAM-1-1/" target="_blank">Orla</a>
-              <a href="#">Apuestas</a>
-              
+<div class="div-one">
+                <img class=latostadora
+                    src="https://latiendaonline.es/wp-content/uploads/2020/01/LaTostadora.png"
+                    alt="La Tostadora">
             </div>
-          </div> 
+
+            <h2>Camisetas Top</h2>
+
+
+            <article class="article-two">
+                <section class=section-one>
+                    <div class="section-two-div">
+                        <img class="img-one"
+                            src="https://srv.latostadora.com/image/mona_lisa_con_tu_cara--id:03ed3a2e-537d-4816-b283-b2fdfc4309fc;s:H_A1;b:f2f2f2;w:520;f:f;i:13562313841920135623201709261.jpg">
+                        
+                        <div class="button">
+                            <button class="btn"><a
+                                    href="https://www.latostadora.com/web/mona_lisa_con_tu_cara/13841920">Más
+                                    información</a></button>
+                        </div>
+                    </div>
+
+                    <div class="section-two-div-2">
+                        <img class="img-two"
+                            src="https://srv.latostadora.com/image/papa_eres_la_cana--id:5b2c07f4-c0c0-443e-bde0-8929dfbb0f4c;s:H_A1;b:f2f2f2;w:520;f:f;i:13562314674092135623201709261.jpg">
+                        
+                        <div class="button">
+                            <button class="btn"><a
+                                    href="https://www.latostadora.com/web/papa_eres_la_cana/14674092">Más
+                                    información</a></button>
+                        </div>
+
+
+                </section>
+                <section class=section-two>
+                    <div class="section-three-div">
+                        <img class="img-three"
+                            src="https://srv.latostadora.com/image/regalos_para_calvos--id:cb4d30b5-99bd-48b0-ac4c-6b7be268a18d;s:H_A1;b:f2f2f2;w:520;f:f;i:1356237071365135623201709261.jpg">
+                        
+                        <div class="button">
+                            <button class="btn"><a
+                                    href="https://www.latostadora.com/web/regalos_para_calvos/7071365">Más
+                                    información</a></button>
+                        </div>
+                    </div>
+                    <div class="section-three-div-2">
+                        <img class="img-four"
+                            src="https://srv.latostadora.com/image/ctrl_alt_del_mafia_ordenadores--id:4f426524-ce8f-4d52-9914-849f4defb8b8;s:H_A1;b:f2f2f2;w:520;f:f;i:1356233296644135623201709261.jpg">
+                        
+                        <div class="button">
+                            <button class="btn"><a
+                                    href="https://www.latostadora.com/web/ctrl_alt_del_mafia_ordenadores/3296644">Más
+                                    información</a></button>
+                        </div>
+                </section>
+
+            
+
+
+            <br><br><br><br><br><br><br><br>
+
+
+
+        </article>
         
-        <div class="dropdown">
-            <button class="dropbtn">FlexBox 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="../flexbox/coches/coches.php">Coches</a>
-              <a href="../../css/flexbox/protonvpn.php">Proton VPN</a>
-              <a href="../flexbox/operadoraflex/operadoraflex.php">Operadora</a>
-              
-            </div>
-          </div> 
-
-        <div class="dropdown">
-          <button class="dropbtn">BoxModel 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="../boxmodel/modeloX/modeloX.php">Modelo X</a>
-            <a href="../boxmodel/modeloY/modeloY.php">Modelo Y</a>
-            <a href="../../css/BoxModel/portada-A.php">Deportes</a>
-            <a href="../boxmodel/operadora/operadora.php">Operadora (Lidertel)</a>
-            <a href="#">Optativa 2</a>
-          </div>
-        </div> 
-        </div> 
-       
-      
-           
-       
-
-
-</nav>
-
-
-
-
-    <main>
-
-    <h1>Esta es la de las camisetas</h1>
-
-
-    <div id="contenedor"> 
-<div>1</div> 
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
+    </main>
 </div>
+
+<footer>
+
+            <section class=section-four>
+                <img class=mercedes-two src="https://rett.es/wp-content/uploads/2021/12/La-tostadora.png" alt="La Tostadora">
+
+                <p>Catálogo de camisetas top</p>
+                <p>2024/2025</p>
+
+            </section>
+
+            <section class=section-five>
+                <ul>
+                    <li>Página oficial de <a id="a-footer"
+                            href="https://www.mercedes-benz.es/?group=all&subgroup=see-all&view=BODYTYPE&gagcmid=GA_20716971962_155060255716_679585325237&gclid=CjwKCAiA8YyuBhBSEiwA5R3-ExZbTK3YKUK_7rsSBN5Sohx_5UUcm9Hm4Xzng__UFGmtipaVvQ-p1hoCrB0QAvD_BwE&gclsrc=aw.ds">Mercedes</a>
+                    </li>
+                    <li><a id="a-footer"
+                            href="https://www.mercedes-benz.es/?group=all&subgroup=see-all&view=BODYTYPE&gagcmid=GA_20716971962_155060255716_679585325237&gclid=CjwKCAiA8YyuBhBSEiwA5R3-ExZbTK3YKUK_7rsSBN5Sohx_5UUcm9Hm4Xzng__UFGmtipaVvQ-p1hoCrB0QAvD_BwE&gclsrc=aw.ds">Concesionarios
+                            de mercedes</a></li>
+                    <li><a  id="a-footer" href="https://noticias.coches.com/fotos-de-coches/fotos-de-mercedes">Fotos de nuestros
+                            coches</a></li>
+                    <li><a id="a-footer" href="https://www.despiecesde.com/mercedes-benz/">Depiece de nuestros vehículos</a></li>
+                    <li><a id="a-footer"
+                            href="https://www.autodoc.es/recambios/mercedes-benz?psafe_param=1&utm_medium=cpc&utm_source=google&tb_prm=20930608508&gshp=1&gad_source=1&gclid=CjwKCAiA8YyuBhBSEiwA5R3-E70M6DwB5O7tOYH5UCV4xdAXmzeSomHGDmj_lvycgtrw8mZA_N5kLRoCQ7gQAvD_BwE">Piezas
+                            de nuestros vehículos</a></li>
+
+                </ul>
+</section>
+
+        </footer>
+</body>
+
+</html>
+
+
+
     
    </main>
 

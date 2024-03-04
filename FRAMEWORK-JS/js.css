@@ -138,7 +138,7 @@ body,
 
         .bgimg-1 {
             position: relative;
-            background: url("../portada.jpg") no-repeat center;
+            background: url("portada.jpg") no-repeat center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;

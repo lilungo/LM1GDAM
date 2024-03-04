@@ -21,6 +21,21 @@ main{
     margin-top: 30px;
 }
 
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: column wrap;
+margin-top:30px;
+
+}
+
+iframe{
+width: 560px;
+height: 350px;
+
+}
+
 
 
 .div-one{
@@ -243,6 +258,47 @@ font-size: large;
 color: #1ca2e0;
 
 }
+
+@media (min-width:1200px) {
+    
+    body{
+        background-image: url("https://www.xtrafondos.com/wallpapers/estructura-abstracta-3d-gris-oscuro-3593.jpg");
+        background-repeat: no-repeat;
+      
+        background-size: cover;
+        
+    }
+    .section-two-div, .section-two-div-2, .section-three-div, .section-three-div-2{
+        background-color: white;
+    }
+    main{
+        background-color: gray;
+    }
+
+}
+
+@media (min-width:992px){
+
+
+
+}
+
+@media (min-width:768px){
+
+
+
+}
+
+
+@media (min-width:576px) {
+
+
+}
+
+
+
+
+
 
 
 

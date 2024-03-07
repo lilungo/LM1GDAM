@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 992px;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.operadora-section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+.masmovil {
+    width: 180px;
+   
+}
+
+.cincog {
+    width: 180px;
+    height: 100px;
+}
+
+.yoigo {
+    width: 180px;
+    
+}
+
+.movil {
+    width: 290px;
+   
+}
+
+.operadora-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.operadora-section-2-p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span {
+    margin-top: 15px;
+    font-size: 50px;
+    color: rgb(110, 11, 156);
+}
+
+.operadora-section-3, .operadora-section-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.operadora-section-3 > p, .operadora-section-5 > p {
+    border: 3px dotted rgb(110, 11, 156);
+    border-radius: 16px;
+    padding: 6px;
+    color: rgb(110, 11, 156);;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.b{
+color: black;
+
+
+}
+
+.operadora-section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.operadora-section-4-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.veloz {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+.p-one {
+    margin-top: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 26px;
+}
+
+.p-two {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.last-section{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+
+}
+.last-section>p{
+
+text-align: center;
+
+
+}
+
+.input1{
+
+  width: 100%;
+  height: 25px;
+
+  margin-top: 20px;
+
+}
+
+.last-section-div-one{
+
+margin-top: 16px;
+
+
+
+
+
+}
+
+.input2{
+
+width: 50% ;
+float: left;
+
+
+}
+
+.input3{
+
+width: 70%;
+margin-top: 20px;
+}
+
+button{
+
+margin-top: 20px;
+
+}
+
+.third-div{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+margin-top: 20px;
+
+}
+
+.label-two{
+
+margin-top: 20px;
+
+}
+

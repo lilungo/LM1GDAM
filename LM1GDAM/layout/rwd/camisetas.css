@@ -7,28 +7,22 @@
 
 header {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 992px;
-    gap: 25px;
-    margin: 0 auto;
-    padding: 10px;
-    margin-top: 30px;
-}
-
-header{
 display: flex;
-flex-direction: column;
+justify-content: center;
 align-items: center;
-flex-wrap: column wrap;
-margin-top:30px;
+margin-bottom: 20px;
 
 }
+
 
 iframe{
 width: 560px;
@@ -36,15 +30,6 @@ height: 350px;
 
 }
 
-
-
-.div-one{
-
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-
-}
 
 .latostadora{
 
@@ -54,69 +39,68 @@ flex-wrap: wrap;
 
 }
 
-h2{
+h1{
 
 text-align: center;
 color: black;
-border: hidden;
-background-color: white;
-
-}
-
-.article-two{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-border: hidden;
-justify-content: space-between;
-align-items: center;
 
 
 }
 
-.section-two-div, .section-two-div-2 > p{
 
-text-align: center;
-
-    
-}
-
-.section-one{
-
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 20px;
-margin-bottom: 70px;
-
-}
-.section-two{
-
+.inicio{
     display: flex;
-   flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-flow: column wrap;
     align-items: center;
-gap: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: -10px;
+    padding: 4px;
+    background-color: #9a9a9a;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 120%;
+    color: #000000;
+    max-width: 100%;
+
+    margin-top: -4px;
+
+    margin-bottom: 50px;
+}
+
+.article-two-div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-right: 60px;
+        margin-left: 60px;
     
+        padding: 4px;
+        padding-bottom: 50px;
+        background-color: #9a9a9a;
 }
 
 
-.section-two-div, .section-two-div-2, .section-three-div, .section-three-div-2{
+  .camiseta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin: 10px;
+        padding: 4px;
+        background-color: #9a9a9a;
+        gap: 12px;
+       
+    }
 
-border: 1px double black;
- background: white;
-width: 350px;
-height: 400px;
-text-align: center;
 
-}
 
-.section-two-div>p, .section-two-div-2>p, .section-three-div>p, .section-three-div-2>p {
-text-transform: uppercase;
-}
 
 .img-one, .img-two, .img-three, .img-four{
 
@@ -124,16 +108,6 @@ width: 300px;
 margin-top: 30px;
 
 }
-
-
-
-.section-three-div, .section-three-div-2 > p{
-
-text-align: center;
-
-}
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
@@ -170,18 +144,6 @@ border: solid 2px #0066cc;
 .btn a{
 
 color: rgb(0, 0, 0);
-
-}
-
-
-
-
-
-.button{
-
-display: flex;
-justify-content: center;
-align-items: center;
 
 }
 
@@ -248,9 +210,6 @@ margin-top: 3px;
 color: white;
 font-size: large;
 
-
-
-
 }
 
 #a-footer:hover{
@@ -259,7 +218,7 @@ color: #1ca2e0;
 
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width: 1200px){
     
     body{
         background-image: url("https://www.xtrafondos.com/wallpapers/estructura-abstracta-3d-gris-oscuro-3593.jpg");
@@ -268,30 +227,133 @@ color: #1ca2e0;
         background-size: cover;
         
     }
-    .section-two-div, .section-two-div-2, .section-three-div, .section-three-div-2{
-        background-color: white;
+
+    .article-two-div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-right: 60px;
+        margin-left: 60px;
+    
+        padding: 4px;
+        padding-bottom: 50px;
+        background-color: #9a9a9a;
+}
+
+
+  .camiseta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin: 10px;
+        padding: 4px;
+        background-color: #9a9a9a;
     }
     main{
-        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        }
+
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+body{
+background-color: white;
+
+}
+    .article-two-div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-right: 60px;
+        margin-left: 60px;
+        padding: 4px;
+        padding-bottom: 50px;
+        background-color: #9a9a9a;
+}
+
+
+  .camiseta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 28%;
+        background-color: #9a9a9a;
+        
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        }
+
+
     }
 
-}
+    @media screen and (min-width: 768px) and (max-width: 991px){
 
-@media (min-width:992px){
+    header{
+display: none;
 
+    }
+    body{
+        background-color: white;
+        
+        }
+            .article-two-div{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: center;
+                margin: auto;
+                margin-top: 10px;
+                margin-right: 60px;
+                margin-left: 60px;
+                padding: 4px;
+                padding-bottom: 50px;
+                background-color: #9a9a9a;
+        }
+        
+        
+          .camiseta {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 32%;
+            
+               
+            }
 
+            .img-one,.img-two,.img-three,.img-four{
+border: 1px solid black;
 
-}
+            }
 
-@media (min-width:768px){
+        }
+@media (min-width:576px) and (max-width: 767px) {
 
+    header{
+        display: none;
+    }
+    footer{
 
+        display: none;
+    }
 
-}
-
-
-@media (min-width:576px) {
-
+    
 
 }
 

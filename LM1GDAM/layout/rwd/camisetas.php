@@ -42,70 +42,55 @@ coma">
 
 <main>
 
-<div class="div-one">
+<section>
+    <div id="container">
+        <article>
+        <div class="inicio">
+            <div id="titulo">
                 <img class=latostadora
                     src="https://latiendaonline.es/wp-content/uploads/2020/01/LaTostadora.png"
                     alt="La Tostadora">
-            </div>
-
-            <h2>Camisetas Top</h2>
-
-
-            <article class="article-two">
-                <section class=section-one>
-                    <div class="section-two-div">
-                        <img class="img-one"
-                            src="https://srv.latostadora.com/image/mona_lisa_con_tu_cara--id:03ed3a2e-537d-4816-b283-b2fdfc4309fc;s:H_A1;b:f2f2f2;w:520;f:f;i:13562313841920135623201709261.jpg">
-                        
-                        <div class="button">
-                            <button class="btn"><a
-                                    href="https://www.latostadora.com/web/mona_lisa_con_tu_cara/13841920">Más
-                                    información</a></button>
-                        </div>
-                    </div>
-
-                    <div class="section-two-div-2">
-                        <img class="img-two"
-                            src="https://srv.latostadora.com/image/papa_eres_la_cana--id:5b2c07f4-c0c0-443e-bde0-8929dfbb0f4c;s:H_A1;b:f2f2f2;w:520;f:f;i:13562314674092135623201709261.jpg">
-                        
-                        <div class="button">
-                            <button class="btn"><a
-                                    href="https://www.latostadora.com/web/papa_eres_la_cana/14674092">Más
-                                    información</a></button>
-                        </div>
-
-
-                </section>
-                <section class=section-two>
-                    <div class="section-three-div">
-                        <img class="img-three"
-                            src="https://srv.latostadora.com/image/regalos_para_calvos--id:cb4d30b5-99bd-48b0-ac4c-6b7be268a18d;s:H_A1;b:f2f2f2;w:520;f:f;i:1356237071365135623201709261.jpg">
-                        
-                        <div class="button">
-                            <button class="btn"><a
-                                    href="https://www.latostadora.com/web/regalos_para_calvos/7071365">Más
-                                    información</a></button>
-                        </div>
-                    </div>
-                    <div class="section-three-div-2">
-                        <img class="img-four"
-                            src="https://srv.latostadora.com/image/ctrl_alt_del_mafia_ordenadores--id:4f426524-ce8f-4d52-9914-849f4defb8b8;s:H_A1;b:f2f2f2;w:520;f:f;i:1356233296644135623201709261.jpg">
-                        
-                        <div class="button">
-                            <button class="btn"><a
-                                    href="https://www.latostadora.com/web/ctrl_alt_del_mafia_ordenadores/3296644">Más
-                                    información</a></button>
-                        </div>
-                </section>
-
             
 
+            <h1>Camisetas Top</h1>
+            </div>
+</div>
+</article>
 
-            <br><br><br><br><br><br><br><br>
 
+            <article>
+                <div class="article-two-div">
+                    <div class="camiseta">
+                        <img class="img-one"
+                            src="https://srv.latostadora.com/image/mona_lisa_con_tu_cara--id:03ed3a2e-537d-4816-b283-b2fdfc4309fc;s:H_A1;b:f2f2f2;w:520;f:f;i:13562313841920135623201709261.jpg">
+                            <a href=https://www.latostadora.com/web/mona_lisa_con_tu_cara/13841920"
+                                target=blank class="btn"> COMPRAR
+                            </a>
+                        </div>
 
+                    <div class="camiseta">
+                        <img class="img-two"
+                            src="https://srv.latostadora.com/image/papa_eres_la_cana--id:5b2c07f4-c0c0-443e-bde0-8929dfbb0f4c;s:H_A1;b:f2f2f2;w:520;f:f;i:13562314674092135623201709261.jpg">
+                         <a href="https://www.latostadora.com/web/papa_eres_la_cana/14674092" target=blank class="btn">COMPRAR
 
-        </article>
+                         </a>
+                        </div>
+                    <div class="camiseta">
+                        <img class="img-three"
+                            src="https://srv.latostadora.com/image/regalos_para_calvos--id:cb4d30b5-99bd-48b0-ac4c-6b7be268a18d;s:H_A1;b:f2f2f2;w:520;f:f;i:1356237071365135623201709261.jpg"><a
+                                    href="https://www.latostadora.com/web/regalos_para_calvos/7071365" target=blank class="btn">COMPRAR</a>
+                        </div>
+                    <div class="camiseta">
+                        <img class="img-four"
+                            src="https://srv.latostadora.com/image/ctrl_alt_del_mafia_ordenadores--id:4f426524-ce8f-4d52-9914-849f4defb8b8;s:H_A1;b:f2f2f2;w:520;f:f;i:1356233296644135623201709261.jpg"><a
+                                    href="https://www.latostadora.com/web/ctrl_alt_del_mafia_ordenadores/3296644" target=blank class="btn">COMPRAR</a>
+                        
+                       
+                        </div>
+</div>
+</article>
+                
+
         
     </main>
 </div>
@@ -123,18 +108,13 @@ coma">
             <section class=section-five>
                 <ul>
                     <li>Página oficial de <a id="a-footer"
-                            href="https://www.mercedes-benz.es/?group=all&subgroup=see-all&view=BODYTYPE&gagcmid=GA_20716971962_155060255716_679585325237&gclid=CjwKCAiA8YyuBhBSEiwA5R3-ExZbTK3YKUK_7rsSBN5Sohx_5UUcm9Hm4Xzng__UFGmtipaVvQ-p1hoCrB0QAvD_BwE&gclsrc=aw.ds">Mercedes</a>
+                            href="https://www.latostadora.com/">La Tostadora</a>
                     </li>
                     <li><a id="a-footer"
-                            href="https://www.mercedes-benz.es/?group=all&subgroup=see-all&view=BODYTYPE&gagcmid=GA_20716971962_155060255716_679585325237&gclid=CjwKCAiA8YyuBhBSEiwA5R3-ExZbTK3YKUK_7rsSBN5Sohx_5UUcm9Hm4Xzng__UFGmtipaVvQ-p1hoCrB0QAvD_BwE&gclsrc=aw.ds">Concesionarios
-                            de mercedes</a></li>
-                    <li><a  id="a-footer" href="https://noticias.coches.com/fotos-de-coches/fotos-de-mercedes">Fotos de nuestros
-                            coches</a></li>
-                    <li><a id="a-footer" href="https://www.despiecesde.com/mercedes-benz/">Depiece de nuestros vehículos</a></li>
-                    <li><a id="a-footer"
-                            href="https://www.autodoc.es/recambios/mercedes-benz?psafe_param=1&utm_medium=cpc&utm_source=google&tb_prm=20930608508&gshp=1&gad_source=1&gclid=CjwKCAiA8YyuBhBSEiwA5R3-E70M6DwB5O7tOYH5UCV4xdAXmzeSomHGDmj_lvycgtrw8mZA_N5kLRoCQ7gQAvD_BwE">Piezas
-                            de nuestros vehículos</a></li>
-
+                            href="https://www.latostadora.com/web/el_rey_de_la_cocina_personalizable/11936830">Otros articulos</a></li>
+                    <li><a  id="a-footer" href="https://www.latostadora.com/design-tool/?image=176520cf-0bf8-49bc-8cf4-149d873b617d&product=G_A1">Crea tu taza</a></li>
+                    <li><a id="a-footer" href="https://www.latostadora.com/body+bebe/">Para bebes</a></li>
+                    
                 </ul>
 </section>
 

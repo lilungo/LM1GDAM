@@ -31,7 +31,7 @@ header .peq {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     margin-top: 0;
-    color:#b8c927;
+    color:#f13e3e;
 }
 
 .logo{
@@ -193,8 +193,8 @@ section .caja:nth-child(14) .icon,
 section .caja:nth-child(18) .icon,
 section .caja:nth-child(22) .icon,
 section .caja:nth-child(26) .icon {
-    box-shadow: 0 0 0 0 #369963;
-    background: #369963;
+    box-shadow: 0 0 0 0 #dbdd47;
+    background: #dbdd47;
 }
 section .caja:nth-child(2):hover .icon,
 section .caja:nth-child(6):hover .icon,
@@ -203,7 +203,7 @@ section .caja:nth-child(14):hover .icon,
 section .caja:nth-child(18):hover .icon,
 section .caja:nth-child(22):hover .icon,
 section .caja:nth-child(26):hover .icon {
-    box-shadow: 0 0 0 400px #369963;
+    box-shadow: 0 0 0 400px #dbdd47;
 }
 
 
@@ -240,8 +240,8 @@ section .caja:nth-child(16) .icon,
 section .caja:nth-child(20) .icon,
 section .caja:nth-child(24) .icon,
 section .caja:nth-child(28) .icon {
-    box-shadow: 0 0 0 0 #f38304;
-    background: #f38304;
+    box-shadow: 0 0 0 0 #9709cf;
+    background: #9709cf;
 }
 section .caja:nth-child(4):hover .icon,
 section .caja:nth-child(8):hover .icon,
@@ -250,7 +250,7 @@ section .caja:nth-child(16):hover .icon,
 section .caja:nth-child(20):hover .icon,
 section .caja:nth-child(24):hover .icon,
 section .caja:nth-child(28):hover .icon {
-    box-shadow: 0 0 0 400px #f38304;
+    box-shadow: 0 0 0 400px #9709cf;
 }
 
 

@@ -13,7 +13,7 @@
         <div class="dropdown-content">
             <a href="../rwd/camisetas.php">CAMISETAS</a>
             <a href="../rwd/orla.php">ORLA</a>
-            <a href="#">APUESTAS</a> 
+            <a href="../rwd/pelicula.php">PELÍCULA</a> 
         </div>
     </div>
 
@@ -36,11 +36,9 @@
             <a href="../boxmodel/operadora.php">Operadora (Yoigo)</a>
             <a href="../boxmodel/modeloY.php">MODELO Y</a>
             <a href="../boxmodel/modeloX.php">MODELO X</a>
-            <!-- <a href="#">SERVICIOS</a>
-                  <a href="#">OPERADORA</a> -->
+            
         </div>
     </div>
-    <!-- <a href="#about">About</a> -->
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 

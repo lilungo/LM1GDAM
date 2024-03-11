@@ -27,7 +27,7 @@
     
 
     <style>
-      /* Estilo para la nota con las observaciones */
+      
 
       @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
       .otro-blockquote {

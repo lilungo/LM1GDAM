@@ -4,7 +4,7 @@
 <head>
     
     <meta charset="utf-8">
-    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="icon" type="image/ico" href="../..favicon.ico">
    
     <meta name="language" content="es">
 

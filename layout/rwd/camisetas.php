@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>La Tostadora</title>
@@ -63,7 +64,7 @@ coma">
                     <div class="camiseta">
                         <img class="img-one"
                             src="https://srv.latostadora.com/image/mona_lisa_con_tu_cara--id:03ed3a2e-537d-4816-b283-b2fdfc4309fc;s:H_A1;b:f2f2f2;w:520;f:f;i:13562313841920135623201709261.jpg">
-                            <a href=https://www.latostadora.com/web/mona_lisa_con_tu_cara/13841920"
+                            <a href="https://www.latostadora.com/web/mona_lisa_con_tu_cara/13841920"
                                 target=blank class="btn"> COMPRAR
                             </a>
                         </div>
@@ -104,10 +105,10 @@ coma">
                 <p>2024/2025</p>
 
             </section>
-
+            
             <section class=section-five>
                 <ul>
-                    <li>Página oficial de <a id="a-footer"
+                    <li >Página oficial de <a id="a-footer"
                             href="https://www.latostadora.com/">La Tostadora</a>
                     </li>
                     <li><a id="a-footer"

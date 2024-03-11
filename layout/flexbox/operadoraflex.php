@@ -4,7 +4,9 @@
 <head>
 
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
     <meta name="language" content="es" />
     <title>Operadora</title>
     <meta name="Title" content="DAM, JAVASCRIPT, PHP, HTML, CSS, XAMPP" />

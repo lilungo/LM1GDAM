@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
     <meta name="language" content="es" >
     <title>Orla</title>
     <meta name="Title" content="Orla" >
@@ -19,71 +22,24 @@
         </style>
 <?php include '../menucss.php';?> 
     </head>
+   
 
     <body>
 
-    <header>
+    <header id="Subir">
+        <div class="header">
 
-    
+            <a href="https://www.escuelaces.com/" target="_blank"><img src="../img/logoces.png"
+                    width="200px" title="pulsa y visita nuestra escuela" alt="Logotipo del instituto CES"></a>
 
-    <style>
-      
-
-      @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-      .otro-blockquote {
-        font-size: 1.1em;
-        width: 70%;
-        margin: 50px auto;
-        font-family: Open Sans;
-        font-style: italic;
-        color: #555555;
-        padding: 1.2em 30px 1.2em 75px;
-        border-left: 8px solid #c83a3a;
-        line-height: 1.6;
-        position: relative;
-        background: #ededed;
-      }
-
-      .otro-blockquote::before {
-        font-family: Arial;
-        content: "\201C";
-        color: #c83a3a;
-        font-size: 6em;
-        position: absolute;
-        left: 20px;
-        top: -30px;
-      }
-
-      .otro-blockquote::after {
-        content: "";
-      }
-
-      .otro-blockquote span {
-        display: block;
-        color: #333333;
-        font-style: normal;
-        font-weight: bold;
-        margin-top: 1em;
-        font-size: 0.8em;
-      }
-    </style>
-  </head>
-  <body id="arriba">
-    <header>
-      <a
-        href="https://www.escuelaces.com/"
-        target="_blank"
-        alt="logotipo escuela CES, ¡visitanos pulsando! "
-        title="¡Pulsa y visita nuestra escuela!"
-      >
-        <div class="divlogo animate__animated animate__flipInX">
-          <img src="../img/logoces.png" alt="Logo CES" class="logo" />
+                    <!-- Style -->
+            <h1 style=" margin: 3rem 0;">Desarrollo de Aplicaciones Multiplataforma</h1>
+            <h2 style="font-style: italic;">CES - Promoción 2025</h2>
         </div>
-      </a>
-      <h1>Desarrollo de Aplicaciones Multiplataforma</h1>
-      <h1 class="peq">CES - Promoción 2025</h1>
 
-      <blockquote class="otro-blockquote animate__animated animate__backInUp">
+
+        <div class="info">
+        <blockquote class="otro-blockquote animate__animated animate__backInUp">
         <p>
           Los diferentes enlaces representan solo una muestra del trabajo
           realizado en el grado en aquellas asignaturas cuyos contenidos son
@@ -91,343 +47,244 @@
         </p>
         <span>Profesor: Alfredo Hurtado</span>
       </blockquote>
-
-    
+        </div>
     </header>
-    <section>
-      <div class="wrapper animate__animated animate__backInUp">
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pikachu.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Alonso Armesto Juan José</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/charmander.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Aranguren Castillo Diego</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/squirtle.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Borislavov Aleksov Kaloyan</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/bulbasur.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Campo Palomino Rubén</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="#" target="_blank"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pokeball.png"alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Caro Valverde Pablo</h3>
-
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-          
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="#" target="_blank"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pikachu.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Colorado Mirones David</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/charmander.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Fernández Romo Julio</h3>
-
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="#" target="_blank"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/squirtle.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Garcia Sánchez Sergio</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/bulbasur.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Gómez Alonso Héctor</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-         
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a
-              href=""
-              target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/squirtle.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Manzano Laforga Alejandro</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/bulbasur.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Margotón Ramírez Gonzalo</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pokeball.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Martín Rodriguez Miguel</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pikachu.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Martínez Rodríguez Javier</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a
-              href=""
-              target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-       
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/squirtle.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Matos Mañón José Ramón</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
 
 
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pokeball.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Pérez Rubio Hugo</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pikachu.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Quiñoá Lombardero Adrián</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/charmander.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Rea González Izhak</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="#" target="_blank"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/squirtle.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Rivera de la Fuente Hugo</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-          
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/bulbasur.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Rondon Bautista Carlos Jesús</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-            
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a>
-          </div>
-        </div>
-        <div class="caja">
-          <div class="icon">
-            <img src="../img/pokeball.png" alt="icono" />
-          </div>
-          <div class="content">
-            <h3>Rubio Gutiérrez Jon</h3>
-            <p class="texto">
-              Estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            </p>
-           
-            <img src="../img/chicoPH.png" class="hp ico-server animated flash" />
-            <a href="" target="_blank"
-              title="¡Mis inicios!"title="¡Mis inicios!">Host personal</a
-            >
-          </div>
-        </div>
-        
 
-    </section>
-    <footer class="centrado">
-      <a href="#arriba" title="¡Arriba!!">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
-          fill="currentColor"
-          class="bi bi-arrow-up-square-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"
-          />
-        </svg>
-      </a>
+    <main>
+
+        <div class="contenedor">
+
+            <div class="cajas">
+
+                <img src="../img/pikachu.png" width="100px" alt="logo1">
+                <h3>Alonso Armesto Juan Jose</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+            </div>
+            <div class="cajas">
+
+                <img src="../img/charmander.png" width="100px" alt="logo2">
+                <h3>Arangure Castillo Diego</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+            </div>
+            <div class="cajas">
+
+
+
+                <img src="../img/squirtle.png" width="100px" alt="logo3">
+                <h3>Borislavov Aleksov Kaloyan</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+
+            </div>
+            <div class="cajas">
+
+                <img src="../img/bulbasur.png" width="100px" alt="logo4">
+                <h3>Campo Palomino Ruben</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+                
+                
+            </div>
+            
+            
+
+            <div class="cajas">
+
+                <img src="../img/pokeball.png" width="100px" alt="logo1">
+                <h3>Caro Valverde Pablo</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+            </div>
+            <div class="cajas">
+
+                <img src="../img/pikachu.png" width="100px" alt="logo2">
+                <h3>Colorado Mirone David</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+            </div>
+            <div class="cajas">
+
+
+
+                <img src="../img/charmander.png" width="100px" alt="logo3">
+                <h3>Fernandez Romo Julio</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+
+            </div>
+            <div class="cajas">
+
+                <img src="../img/squirtle.png" width="100px" alt="logo4">
+                <h3>Garcia Sanchez Sergio</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+                
+                
+            </div>
+           
+            
+                
+            <div class="cajas">
+
+                <img src="../img/bulbasur.png" width="100px" alt="logo1">
+                <h3>Gomez Alonso Hector</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+            </div>
+            <div class="cajas">
+
+                <img src="../img/pokeball.png" width="100px" alt="logo2">
+                <h3>Gonzales Molina Alejandro</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+            </div>
+            <div class="cajas">
+
+
+
+                <img src="../img/pikachu.png" width="100px" alt="logo3">
+                <h3>Huerta Poma Tony Angel</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+
+            </div>
+            <div class="cajas">
+
+                <img src="../img/charmander.png" width="100px" alt="logo4">
+                <h3>Martin Rodiguez Miguel</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+                
+                
+            </div>
+                
+            
+           
+
+           <div class="cajas">
+           <img src="../img/squirtle.png" width="100px" alt="logo1">
+           <h3>Martin Rodiguez Javier</h3>
+           <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+           <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+       </div>
+       <div class="cajas">
+
+           <img src="../img/bulbasur.png" width="100px" alt="logo2">
+           <h3>Martin Sicilia Marc</h3>
+           <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+           <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+           
+       </div>
+       <div class="cajas">
+
+           <img src="../img/pokeball.png" width="100px" alt="logo3">
+           <h3>Matos Mañon Ramon Jose</h3>
+           <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+           <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+
+       </div>
+       <div class="cajas">
+
+           <img src="../img/pikachu.png" width="100px" alt="logo4">
+           <h3>Pacheco De Andres Natalia</h3>
+           <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+           <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+        </div>
+                
+                   
+                   
+
+                       <div class="cajas">
+                           
+                           <img src="../img/charmander.png" width="100px" alt="logo2">
+                           <h3>Perez Hugo Rubio</h3>
+                           <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                           <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                           
+                        </div>
+
+                        <div class="cajas">
+                        <img src="../img/squirtle.png" width="100px" alt="logo1">
+                        <h3>Quiñoa Lombardero Adrian</h3>
+                        <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                        <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                    </div>
+
+                <div class="cajas">
+
+                    <img src="../img/bulbasur.png" width="100px" alt="logo3">
+                    <h3>Rea Gonzales Izhak</h3>
+                    <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                    <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+    
+                </div>
+                <div class="cajas">
+    
+                    <img src="../img/pokeball.png" width="100px" alt="logo4">
+                    <h3>Rivera De La Fuente Hugo</h3>
+                    <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                    <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                    
+                    
+                    
+                </div>
+              
+
+              <div class="cajas">
+              <img src="../img/pikachu.png" width="100px" alt="logo1">
+              <h3>Rubio Gutierrez Jon</h3>
+              <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+              <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+          </div>
+
+              <div class="cajas">
+                           
+                <img src="../img/charmander.png" width="100px" alt="logo2">
+                <h3>Rondon Bautista Carlos Jesus</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+                <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+                
+             </div>
+
+
+     <div class="cajas">
+
+         <img src="../img/squirtle.png" width="100px" alt="logo3">
+         <h3>Yunga Wong Kevin William</h3>
+         <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p><br>
+         <p><i class="fi fi-rr-user"></i><a href="#"> Host Propio</a> </i></p>
+
+     </div>
+
+    </div>
+                    
+     </div>  
+    
+    </main>
+
+    <footer>
+
+        <div class="footers">
+        <a href="#Subir"><img src="../img/flecha.png" width="50px" title="Subir" alt="Subir"></a>
+    </div>
     </footer>
-  </body>
+
+
+
+
+
+
+
+</body>
+
 </html>

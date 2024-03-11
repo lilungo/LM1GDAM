@@ -1,5 +1,5 @@
 <div class="topnav" id="myTopnav">
-    <a href="../../Index.html" class="active">INICIO</a>
+    <a href="../../index.html" class="active">INICIO</a>
 
     <a href="../bootstrap/bootstrap.php" class="dropdown">Bootstrap</a>
 

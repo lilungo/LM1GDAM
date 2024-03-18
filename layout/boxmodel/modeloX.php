@@ -16,6 +16,7 @@
     <meta name="distribution" content="global" />
     <meta name="author" content="Hugo Rivera" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../reset.css">
     <link rel="stylesheet" href="modeloX.css">
 
     <style>

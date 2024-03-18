@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: http://promocionesces.es/Promocion-DAM-2025/alumnos/rivera-hugo/sitemap.xml

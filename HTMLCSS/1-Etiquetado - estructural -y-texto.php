@@ -37,7 +37,7 @@
     <header>
         
        
-        <h1>Más cerca de la vida artificial</h1>
+        <h1>Más cerca de la vida artificial 1</h1>
     
         <h2>Crean el primer cromosoma sintético de levadura</h2>
     </header>

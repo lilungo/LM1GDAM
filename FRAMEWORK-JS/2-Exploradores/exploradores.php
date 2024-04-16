@@ -22,12 +22,11 @@
 
 
     <link rel="stylesheet" href="../js.css">
-    <link rel="stylesheet" href="tombola.css">
-    <script  src="tombola.js" ></script>
+    <link rel="stylesheet" href="exploradores.css">
+    <script  src="exploradores.js" ></script>
 </head>
 
 <body>
-
     <main class="bgimg-1 animated fadeIn">
     
     <nav class="topnav" id="myTopnav">
@@ -36,25 +35,28 @@
       
     </nav>
 
-   
-       
-        <div class="div-principal">
+        <!--A partir de aqui el contenido-->
+
+        <div>
             <div class="caption animated zoomInDown">
-                <span class="border">¡Prueba suerte en la tómbola!</span><br>
+                <span class="border">Navegadores</span><br>
 <!--                <span class="border">-->
                     
-                    <div id="contenido" class="div-one">
+                    <div id="contenido">
                     
-                    <h1>Al presionar el botón saldrá un número aleatorio entre el 1 y el 100 !</h1>
+                    <h1>¿Que navegador sueles utilizar? (explorer, firefox, chrome, opera)</h1>
+                    <p>Escribe en la caja inferior el nombre para ver el logotipo</p>
+                    <h1>Navegador</h1>
 
-                      <img src="https://static.wixstatic.com/media/11a4ef_209278b15ee646c28c6133c654721907.png/v1/fill/w_412,h_259,al_c,lg_1,q_85,enc_auto/11a4ef_209278b15ee646c28c6133c654721907.png">
+                    <input type = "text" id = "navegadorusuario" class ="caja1" name ="navegadorusuario" value="" autofocus onChange="navegador();"
+                    style="font-size: 20px">
 
-                      <button  class="boton" name="b" id="b" onClick="premio();">¡Prueba suerte!</button>
+                    <i class="fa fa-refresh fa-spin fa-3x fa-fw mano" onClick="borraCaja();"></i>
 
-                      <div id="numero" name="numero"></div>
-    
-    
-    <div id="premio" name="premio"></div>
+                    <input type="button" value="Mostrar logotipo" id="bres" name="bres" class="zoomB mano" onClick="navegador();"  style="font-size: 20px">
+    <br>
+    <div id="textoc"></div>
+
                     
                     </div>
                 
@@ -62,8 +64,17 @@
             </div>
 
         </div>
-        <footer>Fuente: <a href="https://javascript.solired.es/012-B%20-%20Loteria%20-RESUELTO%20-%20If.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+        <footer>Fuente: <a href="#" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
     </main>
-   
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 </body></html>

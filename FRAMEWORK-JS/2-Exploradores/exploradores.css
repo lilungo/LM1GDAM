@@ -1,0 +1,38 @@
+html{
+
+    background-image: url(../portada-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    main{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+#contenido{
+
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+
+}
+
+.caja1{
+
+width: 200px;
+height: 40px;
+
+}
+
+.zoomB{
+
+width: 200px;
+height: 40px;
+
+}

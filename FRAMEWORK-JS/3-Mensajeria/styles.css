@@ -1,0 +1,83 @@
+html{
+
+    background-image: url(../portada-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    body {
+    text-align: center;
+    color: #2C2C2C;
+    font-family: "Segoe UI";
+    font-size: 1.1em;
+}
+
+main {
+    margin: 25px auto;
+    width: 80%;
+    text-align: center;
+    border: hidden;
+    background-color: white;
+}
+
+.img-one{
+
+border: 1px;
+background-color: white;
+
+}
+
+table {
+    border-radius: 10px;
+    width: 300px;
+    height: 145px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 2px 9px #aaa;
+    background: linear-gradient(#f2f2f2, #fff);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-right: 60px;
+}
+
+td {
+    text-align: right;
+}
+
+input {
+    width: 50px;
+    text-align: right;
+    font-size: inherit;
+}
+
+.resultado {
+    font-weight: bold;
+    color: #0C3;
+    background-color: #EAEAEA;
+}
+
+.zoom {
+
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#funcionalidad {
+
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.mano {
+    cursor: pointer;
+}

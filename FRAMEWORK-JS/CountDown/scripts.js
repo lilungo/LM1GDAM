@@ -1,0 +1,1 @@
+var myCountdown1 = new Countdown({time:316});

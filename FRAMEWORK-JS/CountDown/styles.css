@@ -1,0 +1,23 @@
+html{
+
+    background-image: url(../portada-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    
+    body {
+	font-family: 'Segoe UI';
+}
+
+
+#contenido 
+    {
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}

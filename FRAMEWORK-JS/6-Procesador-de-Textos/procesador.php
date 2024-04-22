@@ -33,6 +33,8 @@
         <?php include '../menu.php'; ?>
       
     </nav>
+    <div class ="contenidobox">
+
 
     <h2>
         <div id="titulo"><img src="https://www.formaciononline.com/wp-content/uploads/2018/06/853px-LibreOffice_Writer_icon_3.3.1_48_px.svg_-1.png">Maquetador de Texto.</div>
@@ -101,4 +103,5 @@
     <div id="contTextarea">
     <textarea id="texto" placeholder="Escribe tu texto aqui..." autofocus></textarea>
         </div>
+</div>
 </body></html>

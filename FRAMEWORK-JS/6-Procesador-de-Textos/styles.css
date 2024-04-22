@@ -5,11 +5,15 @@
 }
 
 html{
-
+position: relative;
     background-image: url(../portada-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    
+    z-index: 0;
     
     }
 
@@ -20,45 +24,65 @@ body {
 
 }
 #titulo{
-    
+            
     font-family: arial, sans-serif;
-    padding: 20px;
-    color:#0699ca;
-    
+    color:rgb(0, 0, 0);      
+    text-align: center;
     
 }
+
+.contenidobox{
+    padding:20px;
+    width: 70%;
+    border: 1px solid black;
+    max-width:600px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
 img{
     display: inline;
     width: 50px;
    vertical-align: middle;
     margin-right: 10px;
-/*            float: left;*/
-    
-    
+     
 }
 
 #barraControles{
-    
-    background-color: rgba(65,65,65,.3);
+    text-align: center;
+    background-color: rgba(225,225,225, 1);
     padding: 20px;
     
 }
+#controles2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .borde{
-    
     border: 1px solid black;
     padding: 4px;
+    border-radius: 10px;
     
 }
 
 #contTextarea{
-/*            border:1px solid red;*/
-    width: 992px;
+    max-width: 992px;
+    padding: 10px;
     margin:auto;
 }
 
 textarea{
     display: block;
-    width:800px;
+    width: 90%;
+    background-color: lightblue;
     min-height: 400px;
     margin-left: auto;
     margin-right: auto;

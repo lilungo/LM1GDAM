@@ -6,32 +6,49 @@ html{
     background-size: cover;
     
     }
+    #div-one {
+        padding:20px;
+        width: 70%;
+        border: 1px solid black;
+        max-width:600px;
+        background-color: lightgrey;
+        text-align: center;
+        border-radius: 5px;
+        margin: 20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 
-#div-one {
-    position: relative;
-    background-color: #ddd;
-    text-align: center;
-    border-radius: 5px;
-    margin: 20px;
+    p, input[type="button"] {
+        font-size: 30px;
+    }
 
-}
+    #escribir{
+        width:100%;
+    }
 
-p,
-input[type="button"] {
-    font-size: 2.2em;
-}
+    input[type="text"] {
+        text-align: center;
+        border:1px solid #000;
+        height: 50px;
+        width: 70%;
+        font-size: 1.2em;
+        color: black;
+        border-radius: 5px;
+    }
 
-input[type="text"] {
-    text-align: center;
-    border: 0;
-    height: 50px;
-    width: auto;
-    font-size: 3em;
-    color: #090;
-    border-radius: 5px;
-}
+    #boton{
+        border:1px solid #000;
+        padding: 5px 10px 5px 10px;
+        cursor:pointer;
+        color: white;
+        width: 100%;
+        max-width: 100px;
+        background-color: grey;
+        border-radius: 5px;
+    }
 
-.resalta {
-    font-size: 1.2em;
-    color: black;
-}
+    .resalta {
+        font-size: 30px;
+        color: black;
+    }

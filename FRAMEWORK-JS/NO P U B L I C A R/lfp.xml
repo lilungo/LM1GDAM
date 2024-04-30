@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<liga nombre="Liga Profesional de Fútbol Español">
+  <equipos>
+    <equipo nombre="Athletic Club Bilbao">
+      <ciudad>Bilbao</ciudad>
+      <entrenador>Ernesto Valverde</entrenador>
+      <camiseta color="rojo-blanco">Roja y blanca</camiseta>
+    </equipo>
+    <equipo nombre="Atlético de Madrid">
+      <ciudad>Madrid</ciudad>
+      <entrenador>Diego Simeone</entrenador>
+      <camiseta color="rojo-blanco">Rojiblanca</camiseta>
+    </equipo>
+    <equipo nombre="FC Barcelona">
+      <ciudad>Barcelona</ciudad>
+      <entrenador>Xavi Hernández</entrenador>
+      <camiseta color="azulgrana">Azulgrana</camiseta>
+    </equipo>
+    <equipo nombre="Cádiz CF">
+      <ciudad>Cádiz</ciudad>
+      <entrenador>Sergio González</entrenador>
+      <camiseta color="amarillo-azul">Amarilla y azul</camiseta>
+    </equipo>
+    <equipo nombre="Celta de Vigo">
+      <ciudad>Vigo</ciudad>
+      <entrenador>Eduardo Coudet</entrenador>
+      <camiseta color="azul-celeste">Celeste</camiseta>
+    </equipo>
+    <equipo nombre="Elche CF">
+      <ciudad>Elche</ciudad>
+      <entrenador>Francisco Rodríguez</entrenador>
+      <camiseta color="franjiverde">Franjiverde</camiseta>
+    </equipo>
+    <equipo nombre="Espanyol">
+      <ciudad>Barcelona</ciudad>
+      <entrenador>Vicente Moreno</entrenador>
+      <camiseta color="azul-blanco">Blanquiazul</camiseta>
+    </equipo>
+    <equipo nombre="Getafe CF">
+      <ciudad>Getafe</ciudad>
+      <entrenador>Quique Sánchez Flores</entrenador>
+      <camiseta color="azul-blanco">Azulona</camiseta>
+    </equipo>
+    <equipo nombre="Girona FC">
+      <ciudad>Girona</ciudad>
+      <entrenador>Míchel Sánchez</entrenador>
+      <camiseta color="rojo-blanco">Rojiblanca</camiseta>
+    </equipo>
+    <equipo nombre="Mallorca">
+      <ciudad>Palma de Mallorca</ciudad>
+      <entrenador>Luis García Plaza</entrenador>
+      <camiseta color="rojo-negro">Bermellón</camiseta>
+    </equipo>
+    <equipo nombre="Osasuna">
+      <ciudad>Pamplona</ciudad>
+      <entrenador>Jagoba Arrasate</entrenador>
+      <camiseta color="rojo-azul">Roja y azul</camiseta>
+    </equipo>
+    <equipo nombre="Rayo Vallecano">
+      <ciudad>Madrid</ciudad>
+      <entrenador>Andoni Iraola</entrenador>
+      <camiseta color="franjirroja">Franjirroja</camiseta>
+    </equipo>
+    <equipo nombre="Real Betis">
+      <ciudad>Sevilla</ciudad>
+      <entrenador>Manuel Pellegrini</entrenador>
+      <camiseta color="verde-blanco">Verdiblanca</camiseta>
+    </equipo>
+    <equipo nombre="Real Madrid">
+      <ciudad>Madrid</ciudad>
+      <entrenador>Carlo Ancelotti</entrenador>
+      <camiseta color="blanco">Blanca</camiseta>
+    </equipo>
+    <equipo nombre="Real Sociedad">
+      <ciudad>San Sebastián</ciudad>
+      <entrenador>Imanol Alguacil</entrenador>
+      <camiseta color="azul-blanco">Txuri-urdin</camiseta>
+    </equipo>
+    <equipo nombre="Sevilla FC">
+      <ciudad>Sevilla</ciudad>
+      <entrenador>Julen Lopetegui</entrenador>
+      <camiseta color="blanco-rojo">Blanquirroja</camiseta>
+    </equipo>
+    <equipo nombre="Valencia CF">
+      <ciudad>Valencia</ciudad>
+      <entrenador>José Bordalás</entrenador>
+      <camiseta color="naranja-negro">Naranja y negra</цвета>
+    </equipo>
+    <equipo nombre="Villarreal CF">
+      <ciudad>Villarreal</ciudad>
+      <entrenador>Unai Emery</entrenador>
+      <camiseta color="amarillo">Amarilla</camiseta>
+    </equipo>
+  </equipos>
+</liga>

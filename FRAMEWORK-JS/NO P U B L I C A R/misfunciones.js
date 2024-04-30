@@ -8,7 +8,7 @@ function pwcheck() {
     location.href="http://www.google.es";
     }
     else {
-    alert("La contraseña no es correcta después de 3 intentos ¡y lo peor es que \n
-    era fácil! ");
+    alert("La contraseña no es correcta después de 3 intentos ¡y lo peor es que  era fácil! ");
     }
 }
+

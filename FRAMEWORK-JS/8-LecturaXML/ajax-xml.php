@@ -34,17 +34,44 @@
       
     </nav>
     
-
+<main>
+                    
+    <div>
+            <div class="caption animated zoomInDown">
+                <span class="border">Lectura de XML con ajax</span><br>
                     
                     <div id="contenido">
                     
-                    <h1>Contenido de cada script aqui</h1>
+                    <div id="contenedor">
+                    <div id="contenido2">
+                    <div id="nota"><img src="https://seeklogo.com/images/L/LFP-logo-8C187F8F3E-seeklogo.com.png" width="150" height="150"></div>
+                        
+                        <h2>Equipos de La Liga</h2>
+                        
+                        <button type="button"  onclick="cargaXML()">Cargar equipos</button>
+                        <br /><br /><br />
+                        
+                        <table class="neutral">
+                        <tr class="neutral">
+                            <th>Equipo</th>  
+                            <th> Ciudad</th> 
+                            <th>Entrenador</th> 
+                            <th>Camiseta</th> 
+                        </tr>    
+                        
+                        </table>
+                        
+                    <div id="resultado2"></div> 
+                    </div>
+                        
+                    </div>
                     
                     </div>
                 
+            </div>
 
-            
-        <footer>Fuente: <a href="#" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+        </div>
+        <footer>Fuente: <a href="https://javascript.solired.es/051-AJAX/3-micoleccion.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
     </main>
     
 

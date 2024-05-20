@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="../js.css">
     <link rel="stylesheet" href="tombola.css">
+    <script  src="js-image-zoom.js" ></script>
 </head>
 
 <body>
@@ -33,32 +34,28 @@
 
         <!--A partir de aqui el contenido-->
 
-        <div>
-            <div class="caption animated zoomInDown">
-                <span class="border">Titulo del Script</span><br>
-<!--                <span class="border">-->
-                    
-                    <div id="contenido">
-                    
-                    <h1>Contenido de cada script aqui</h1>
-                    
-                    </div>
-                
-<!--                </span>-->
-            </div>
+        <div id ="img-container">
+            <img src="pic.jpg">
+
+            <script>
+                var options = {
+    width: 500, height: 500, zoomwidth: 600, scale: 2.5, zoomContainer: domNode,  offset: {
+      vertical: 0,
+      horizontal: 10
+    }
+                             };
+    new ImageZoom(document.getElementById("img-container"), options);
+</script>
 
         </div>
+
+
+
         <footer>Fuente: <a href="#" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+
+
+
     </main>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    
 
 </body></html>

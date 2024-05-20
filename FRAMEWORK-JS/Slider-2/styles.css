@@ -1,0 +1,19 @@
+.div1 > h2{
+
+text-align: center;
+color: white;
+background-color: black;
+border: 2px solid black;
+width: 20%;
+margin-left: 40% ;
+
+}
+
+.contenido-div{
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 992px;
+
+}

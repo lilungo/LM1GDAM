@@ -32,11 +32,10 @@ else
 	
         //Además, para que le bucle sea más sencillo de tratar en lugar de definir la variable titulo, la hemos reacondicionado por x
 	
-        x=xmlDoc.getElementsByTagName("liga");
-        artista=xmlDoc.getElementsByTagName("equipo");
-        pais=xmlDoc.getElementsByTagName("ciudad");
-        firma=xmlDoc.getElementsByTagName("entrenador");
-        precio=xmlDoc.getElementsByTagName("camiseta");
+        x=xmlDoc.getElementsByTagName("equipo");
+        ciudad=xmlDoc.getElementsByTagName("ciudad");
+        entrenador=xmlDoc.getElementsByTagName("entrenador");
+        camiseta=xmlDoc.getElementsByTagName("camiseta");
         
     
 	//Creamos el bucle en el que incluimos la tabla (variable txt) y pintamos línea a línea el primer nodo de cada índice del array que representan los elementos en el XML
@@ -44,7 +43,7 @@ else
 	
     for (i=0;i<x.length;i++)
       {
-      txt=txt + "<tr><td>" + x[i].childNodes[0].nodeValue +"</td><td>"+ ciudad[i].childNodes[0].nodeValue +"</td><td>"+ entrenador[i].childNodes[0].nodeValue+ "</td><td>"+ camiseta[i].childNodes[0].nodeValue +"</td><td>"+ camiseta[i].childNodes[0].nodeValue;
+      txt=txt + "<tr><td>" + x[i].childNodes[0].nodeValue +"</td><td>"+ ciudad[i].childNodes[0].nodeValue +"</td><td>"+ entrenador[i].childNodes[0].nodeValue+ "</td><td>"+ camiseta[i].childNodes[0].nodeValue+ "</td><td>";
        }
     document.getElementById("resultado2").innerHTML=txt;
     }

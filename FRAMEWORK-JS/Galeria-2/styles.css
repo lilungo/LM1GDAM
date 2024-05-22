@@ -1,0 +1,78 @@
+html{
+
+	background-image: linear-gradient(to right, rgba(37, 37, 37, 0.836) , rgba(255, 0, 0, 0.842));
+    background-position: center;
+    background-repeat: repeat 	;
+    background-size: cover;
+	
+    
+    }
+
+#contenido{
+    width: 992px;;
+  }
+  .zooma-main {
+    overflow: hidden;
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .zooma-main img {
+    pointer-events: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+  .zooma-main img.is-loaded {
+    position: absolute;
+  }
+  .zooma-main img.is-active {
+    opacity: 1;
+    pointer-events: initial;
+  }
+  .zooma-main img.is-zoomed-in {
+    cursor: zoom-out;
+    width: initial;
+  }
+
+  .zooma-thumbnail img {
+    display: block;
+    width: 80px;
+    height: auto;
+    opacity: 0.5;
+    padding: 10px;
+  }
+  .zooma-thumbnail img.is-active {
+    opacity: 1;
+    outline: 1px solid;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+  }
+  .product__thumbnails {
+    flex-shrink: 0;
+  }
+  .product__focus {
+    margin: 0 40px;
+  }
+  .product__description {
+    width: 30%;
+  }

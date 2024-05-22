@@ -33,14 +33,17 @@
         <?php include '../menu.php'; ?>
       
     </nav>
-
+	<h1 class="border">Mensajeria</h1><br>
 	<main>
-		<img class ="img-one"  src="https://javascript.solired.es/img/pedidos.png" width="650" height="96">
+
+                
+
+		<img class ="img-one"  src="https://cdn-icons-png.flaticon.com/512/2250/2250401.png" width="350" height="280">
 
 		<div id="mensajeError">
 			<h3>Introduce las cartas y paquetes que quieras enviar</h3>
 		</div>
-		<!-- <h2>Presupuesto de mensajería</h2> -->
+		<h2>Presupuesto de mensajería</h2> 
 
 		<table>
 			<tbody>

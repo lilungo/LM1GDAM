@@ -8,56 +8,51 @@ html{
     
     }
 
-	#contenido{
-		width: 650px;
-	}
-#contenedor {
-margin-top: 0px;
-margin-right: auto;
-margin-bottom: 10px;
-margin-left: auto;
-}
-#contenedor #contenido {
-width: 580px;
-border: none;
-position: relative;
-text-align: center;
-margin:auto;
-}
-#resultado2 {
-font-family: "Brygada 1918", serif;
-font-optical-sizing: auto;
-font-weight: weight;
-font-style: normal;
-position: absolute;
-left: 40px;
-top: 450px;
-width: 513px;
-height: 323px;
-z-index: 1;
-border: 4px groove #666;
-padding: 10px;
-overflow: auto;
-text-align: left;
-font-size: 1.3em;
-}
+    .border{
 
-#resultado2 p {
-text-indent: 50px;
-}
+        background-color: black;
+        color: white;
+       text-align: center;
+       margin-left: 40%;
+       margin-right: 40%;
+        }
 
-
-.letra:first-letter{
-color: #666666;
-display: block; /* Lo convertimos en bloque */
-float: left; /*Lo mandamos a la izquierda */
-font-size: 300%;	/* Hacemos crecer la primera letra */
-margin: 10px; /* Y le ponemos un margen cuadrado de 5 píxeles */
-}
-
-
-#img1{
-
-width: 120px;
-height: 100px;
-}
+	#contenedor {
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    #contenedor #contenido {
+        width: 580px;
+        border: thin dotted #666;
+        position: relative;
+        text-align: center;
+        margin:auto;
+    }
+    #resultado2 {
+        position: absolute;
+        left: 26px;
+        top: 432px;
+        width: 513px;
+        height: 323px;
+        z-index: 1;
+        border: 4px groove #666;
+        padding: 10px;
+        overflow: auto;
+        text-align: left;
+        font-size: 1.3em;
+    }
+    
+    #resultado2 p {
+        text-indent: 50px;
+    }
+    
+    
+    .letraCapital:first-letter{
+        color: #666666;
+        display: block; /* Lo convertimos en bloque */
+        float: left; /*Lo mandamos a la izquierda */
+        font-size: 300%;	/* Hacemos crecer la primera letra */
+        margin: 10px; /* Y le ponemos un margen cuadrado de 5 píxeles */
+    }

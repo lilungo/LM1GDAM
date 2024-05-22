@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<liga nombre="Liga Profesional de Fútbol Español">
   <equipos>
     <equipo nombre="Athletic Club Bilbao">
       <ciudad>Bilbao</ciudad>
@@ -92,4 +91,3 @@
       <camiseta color="amarillo">Amarilla</camiseta>
     </equipo>
   </equipos>
-</liga>

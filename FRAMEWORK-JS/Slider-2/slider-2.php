@@ -20,11 +20,12 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
-    <link rel="stylesheet" href="generic.css">
+   
     <link rel="stylesheet" href="../js.css">
     <link href="../themes/4/js-image-slider.css" rel="stylesheet" type="text/css" />
     <script src="../themes/4/js-image-slider.js" type="text/javascript"></script>
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="generic.css">
 </head>
 
 <body>

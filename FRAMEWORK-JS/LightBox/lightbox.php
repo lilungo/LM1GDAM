@@ -19,7 +19,8 @@
 
 
     <link rel="stylesheet" href="../js.css">
-    <link rel="stylesheet" href="tombola.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -30,35 +31,58 @@
         <?php include '../menu.php'; ?>
       
     </nav>
-
-        <!--A partir de aqui el contenido-->
-
-        <div>
-            <div class="caption animated zoomInDown">
-                <span class="border">Titulo del Script</span><br>
-<!--                <span class="border">-->
+<main>
+    <div>
+            <div class="caption animated">
+                <span class="border">lightbox</span><br>
                     
                     <div id="contenido">
-                    
-                    <h1>Contenido de cada script aqui</h1>
-                    
-                    </div>
-                
-<!--                </span>-->
-            </div>
 
-        </div>
-        <footer>Fuente: <a href="#" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+    <div class="row">
+  <div class="col">
+     <img src="https://cadenaser.com/resizer/NtCWqFvxYRVKCDjizesEZFDB9Gs=/1200x900/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/64LTEZ6JCRILTC5LAWS2KU6MUM.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Toy car on the road." />
+  </div>
+  <div class="col">
+     <img src="https://images.ecestaticos.com/VmUALTkdv3uS-fcR_qRVyHXiXKQ=/0x0:2272x1549/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9b5%2Fbd4%2Fbfa%2F9b5bd4bfaf5a91535e6bf6737eba2b3d.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Toy car exploring offroad." />
+  </div>
+  <div class="col">
+     <img src="https://images.ecestaticos.com/NuiCPp92Tx9u6mVyukh2y4bEYqg=/0x0:2272x1617/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdff%2Ff30%2F75a%2Fdfff3075a621ae31d1de14c9fbde6212.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Toy car in the city." />
+  </div>
+</div>
+
+
+     
+<div id="Lightbox" class="modal">
+  <span class="close pointer" onclick="closeLightbox()">&times;</span>
+  <div class="modal-content">
+    <div class="slide">
+        <img src="https://cadenaser.com/resizer/NtCWqFvxYRVKCDjizesEZFDB9Gs=/1200x900/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/64LTEZ6JCRILTC5LAWS2KU6MUM.jpg" class="image-slide" alt="Toy car on the road." />
+    </div>
+    <div class="slide">
+        <img src="https://images.ecestaticos.com/VmUALTkdv3uS-fcR_qRVyHXiXKQ=/0x0:2272x1549/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9b5%2Fbd4%2Fbfa%2F9b5bd4bfaf5a91535e6bf6737eba2b3d.jpg" class="image-slide" alt="Toy car exploring offroad." />
+    </div>    
+    <div class="slide">
+        <img src="https://images.ecestaticos.com/NuiCPp92Tx9u6mVyukh2y4bEYqg=/0x0:2272x1617/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdff%2Ff30%2F75a%2Fdfff3075a621ae31d1de14c9fbde6212.jpg" class="image-slide" alt="Toy car in the city." />
+    </div>
+  
+    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  
+    <div class="dots">
+      <div class="col">
+        <img src="https://cadenaser.com/resizer/NtCWqFvxYRVKCDjizesEZFDB9Gs=/1200x900/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/64LTEZ6JCRILTC5LAWS2KU6MUM.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Toy car on the road" />
+      </div>
+      <div class="col">
+        <img src="https://images.ecestaticos.com/VmUALTkdv3uS-fcR_qRVyHXiXKQ=/0x0:2272x1549/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F9b5%2Fbd4%2Fbfa%2F9b5bd4bfaf5a91535e6bf6737eba2b3d.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Toy car exploring offroad." />
+      </div>
+      <div class="col">
+        <img src="https://images.ecestaticos.com/NuiCPp92Tx9u6mVyukh2y4bEYqg=/0x0:2272x1617/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdff%2Ff30%2F75a%2Fdfff3075a621ae31d1de14c9fbde6212.jpg" class="modal-preview" hover-shadow onclick="toSlide(3)" alt="Toy car in the city." />
+      </div>
+    </div>
+  </div>
+</div>
+       
     </main>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <footer>Fuente: <a href="https://www.freecodecamp.org/news/how-to-create-a-lightbox-using-html-css-and-javascript/" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
 
 </body></html>

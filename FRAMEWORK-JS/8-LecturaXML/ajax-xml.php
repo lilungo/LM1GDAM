@@ -36,43 +36,29 @@
     
 <main>
                     
-    <div>
-            <div class="caption animated zoomInDown">
-                <span class="border">Lectura de XML con ajax</span><br>
-                    
-                    <div id="contenido">
-                    
-                    <div id="contenedor">
-                    <div id="contenido2">
-                    <div id="nota"><img src="https://seeklogo.com/images/L/LFP-logo-8C187F8F3E-seeklogo.com.png" width="150" height="150"></div>
-                        
-                        <h2>Equipos de La Liga</h2>
-                        
-                        <button type="button"  onclick="cargaXML()">Cargar equipos</button>
-                        <br /><br /><br />
-                        
-                        <table class="neutral">
-                        <tr class="neutral">
-                            <th>Equipo</th>  
-                            <th> Ciudad</th> 
-                            <th>Entrenador</th> 
-                            <th>Camiseta</th> 
-                        </tr>    
-                        
-                        </table>
-                        
-                    <div id="resultado2"></div> 
-                    </div>
-                        
-                    </div>
-                    
-                    </div>
-                
-            </div>
-
-        </div>
-        <footer>Fuente: <a href="https://javascript.solired.es/051-AJAX/3-micoleccion.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
-    </main>
+<div id="contenedor">
+  <div id="contenido">
+  <div id="nota"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Lfp-logo-vector.png" width="120" height="120"></div>
     
-
-</body></html>
+    <h2>LA LIGA (AJAX + XML)</h2>
+     
+    <button type="button"  onclick="cargaXML()">Cargar Equipos de LaLiga</button>
+       <br /><br /><br />
+      
+      <table class="neutral"><tr class="neutral">
+        <th>Equipo</th> 
+        <th>Ciudad</th>   
+        <th>Entrenador</th> 
+        <th>Camiseta</th> 
+    
+      </tr>    
+      
+      </table>
+    
+   <div id="resultado2"></div> 
+  </div>
+    
+</div>
+</main>
+</body>
+</html>

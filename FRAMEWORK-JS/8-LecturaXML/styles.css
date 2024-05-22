@@ -1,3 +1,14 @@
+html{
+
+	background-image: linear-gradient(to right, rgba(37, 37, 37, 0.836) , rgba(255, 0, 0, 0.842));
+    background-position: center;
+    background-repeat: repeat 	;
+    background-size: cover;
+	
+    
+    }
+
+
 #contenedor {
     /*	width:992px;*/
         margin-top: 20px;
@@ -18,9 +29,9 @@
     }
     #resultado2 {
         position: absolute;
-        left: -48px;
+       left: 0px;
         top: 140px;
-        width: 680px;
+        width: 650px;
         height: 600px;
         z-index: 0;
         border: 1px solid #F63;

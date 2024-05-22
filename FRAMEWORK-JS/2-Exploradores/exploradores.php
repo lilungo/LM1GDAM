@@ -40,7 +40,7 @@
         <div>
             <div class="caption animated zoomInDown">
                 <span class="border">Navegadores</span><br>
-<!--                <span class="border">-->
+
                     
                     <div id="contenido">
                     
@@ -64,7 +64,7 @@
             </div>
 
         </div>
-        <footer>Fuente: <a href="#" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+        <footer>Fuente: <a href="https://javascript.solired.es/015-Navegadores-Switch-RESUELTO.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
     </main>
     <script>
         function myFunction() {

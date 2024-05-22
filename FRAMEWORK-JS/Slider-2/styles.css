@@ -1,19 +1,37 @@
+
+html{
+
+	background-image: linear-gradient(to right, rgba(37, 37, 37, 0.836) , rgba(255, 0, 0, 0.842));
+    background-position: center;
+    background-repeat: repeat 	;
+    background-size: cover;
+	
+    
+    }
+
+
 .div1 > h2{
 
 text-align: center;
 color: white;
 background-color: black;
 border: 2px solid black;
-width: 20%;
-margin-left: 40% ;
+
+
 
 }
 
-.contenido-div{
+
+
+#contenido{
+    width: 992px;
+    background-color: black;
+}
+
+main{
 
 display: flex;
-justify-content: center;
-align-items: center;
-width: 992px;
+flex-direction: column;
 
+align-items: center;
 }

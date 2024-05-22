@@ -1,4 +1,12 @@
+html{
 
+	background-image: linear-gradient(to right, rgba(37, 37, 37, 0.836) , rgba(255, 0, 0, 0.842));
+    background-position: center;
+    background-repeat: repeat 	;
+    background-size: cover;
+	
+    
+    }
 #galeria{ width: 500px;}
 
 nav ul{ list-style:none; padding-left: 0; 

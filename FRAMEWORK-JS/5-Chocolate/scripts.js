@@ -13,31 +13,41 @@ function calcula(){
     switch(posicion) {
       case 0:
             //alert ('primer choco');
-            var calorias=560;
+            limpito();
             //alert (calorias);
         break;
         
           case 1:
             //alert ('segundo choco');
-            var calorias=520;
+            var calorias=560;
+            resultado = '<img src="negro_amargo.jpg"> ';
             //alert (calorias);
         break;
         
           case 2:
             //alert ('tercer choco');
-            var calorias=570;
+            var calorias=520;
+            resultado = '<img src="chocolate_taza.jpg"> ';
             //alert (calorias);
         break;
         
         case 3:
             //alert ('cuarto choco');
             var calorias=540;
+            resultado = '<img src="chocolate_leche.jpg"> ';
             //alert (calorias);
         break;
         
         case 4:
             //alert ('quinto choco');
-            var calorias=520;
+            var calorias=570;
+            resultado = '<img src="chocolate_blanco.jpg"> ';
+            //alert (calorias);
+        break;
+        case 5:
+            //alert ('quinto choco');
+            var calorias=70;
+            resultado = '<img src="chocolate_light.jpg"> ';
             //alert (calorias);
         break;
         
@@ -60,46 +70,14 @@ function calcula(){
             
             var total=(calorias*cantidad)/1000;
             document.getElementById('Kcal').value=total;
+
+            document.getElementById('chocolatito').innerHTML = resultado;
     
                 
         }
-        /*function limpito(){
-            
-            document.getElementById("Kcal").value="";
-        }*/
-        
-        /*Otra opcion
-        
-        function chocolate() {
-                var lista;
-                lista = document.getElementById("opciones");
-                var valorElegido = lista.options[lista.selectedIndex].value;
-                var x;
-                var result;
-                switch(valorElegido){
-                    case "a":
-                        x=5.6;
-                        result = (document.getElementById("gramos").value * x) / 1000;
-                        break;
-                    case "b":
-                        x=5.2;
-                        result = (document.getElementById("gramos").value * x) / 1000;
-                        break;
-                     case "c":
-                        x=5.7;
-                        result = (document.getElementById("gramos").value * x) / 1000;
-                        break;
-                    case "d":
-                        x=5.4;
-                        result = (document.getElementById("gramos").value * x) / 1000;
-                        break;
-                    case "e":
-                        x=5.2;
-                        result = (document.getElementById("gramos").value * x) / 1000;
-                        break;
-                }
-                document.getElementById("result").innerHTML=result;
-    
-            }
-    
-            }*/
+    function limpito(){
+        document.getElementById("Kcal").value="";
+        document.getElementById("gramos").value="100";
+        document.getElementById("tipo").value="";
+        document.getElementById('chocolatito').innerHTML = "";
+    }

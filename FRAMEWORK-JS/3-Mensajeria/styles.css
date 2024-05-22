@@ -83,3 +83,12 @@ input {
 .mano {
     cursor: pointer;
 }
+
+.border{
+
+background-color: black;
+color: white;
+margin-left: 45%;
+margin-right: 45%;
+
+}

@@ -34,7 +34,7 @@
       
     </nav>
     
-
+                <h1 class="border">Mayusculas o minusculas?</h1><br>
     <div  id = "div-one">
         <h1>¿Mayúsculas o minúsculas?</h1>
         <br><br>
@@ -48,5 +48,6 @@
         <br><br><br>
         <p id="texto"></p><br><br><br>
     </div>
-
+</div>
+    <footer>Fuente: <a href="https://javascript.solired.es/047%20-%20PROPUESTOS/04-B-MayusMinus.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
 </body></html>

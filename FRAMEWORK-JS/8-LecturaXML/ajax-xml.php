@@ -50,7 +50,7 @@
     <button type="button"  onclick="cargaXML();">Ver equipos</button>
        <br/> 
       
-      <table class="neutral"><tr class="neutral">
+      <table class="neuteral"><tr class="neutral">
         <th class="nombre">Equipo</th> 
         <th class="ciudad">Ciudad</th>   
         <th class="entrenador">Entrenador</th> 

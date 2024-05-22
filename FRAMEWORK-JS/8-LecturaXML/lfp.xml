@@ -1,93 +1,77 @@
 
   <equipos>
+  
+    <nombre>
     <equipo>Athletic Club Bilbao"</equipo>
       <ciudad>Bilbao</ciudad>
       <entrenador>Ernesto Valverde</entrenador>
       <camiseta>Roja y blanca</camiseta>
-    </equipo>
+
+      </nombre>
+    <nombre>
     <equipo>Atlético de Madrid"</equipo>
       <ciudad>Madrid</ciudad>
       <entrenador>Diego Simeone</entrenador>
       <camiseta>Rojiblanca</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>FC Barcelona</equipo>
       <ciudad>Barcelona</ciudad>
       <entrenador>Xavi Hernández</entrenador>
       <camiseta>Azulgrana</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Cádiz CF</equipo>
       <ciudad>Cádiz</ciudad>
       <entrenador>Sergio González</entrenador>
       <camiseta>Amarilla y azul</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Celta de Vigo"</equipo>
       <ciudad>Vigo</ciudad>
       <entrenador>Rafa Benítez</entrenador>
       <camiseta>Celeste</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Elche CF"</equipo>
       <ciudad>Elche</ciudad>
       <entrenador>Francisco Rodríguez</entrenador>
       <camiseta>Franjiverde</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Espanyol</equipo>
       <ciudad>Barcelona</ciudad>
       <entrenador>Vicente Moreno</entrenador>
       <camiseta>Blanquiazul</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Getafe CF</equipo>
       <ciudad>Getafe</ciudad>
       <entrenador>Quique Sánchez Flores</entrenador>
       <camiseta>Azulona</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Girona FC</equipo>
       <ciudad>Girona</ciudad>
       <entrenador>Míchel Sánchez</entrenador>
       <camiseta>Rojiblanca</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Mallorca</equipo>
       <ciudad>Palma de Mallorca</ciudad>
       <entrenador>Luis García Plaza</entrenador>
       <camiseta>Bermellón</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Osasuna</equipo>
       <ciudad>Pamplona</ciudad>
       <entrenador>Jagoba Arrasate</entrenador>
       <camiseta>Roja y azul</camiseta>
-    </equipo>
+    </nombre>
+    <nombre>
     <equipo>Rayo Vallecano</equipo>
       <ciudad>Madrid</ciudad>
       <entrenador>Andoni Iraola</entrenador>
       <camiseta>Franjirroja</camiseta>
-    </equipo>
-    <equipo>Real Betis</equipo>
-      <ciudad>Sevilla</ciudad>
-      <entrenador>Manuel Pellegrini</entrenador>
-      <camiseta>Verdiblanca</camiseta>
-    </equipo>
-    <equipo>Real Madrid</equipo>
-      <ciudad>Madrid</ciudad>
-      <entrenador>Carlo Ancelotti</entrenador>
-      <camiseta>Blanca</camiseta>
-    </equipo>
-    <equipo>Real Sociedad</equipo>
-      <ciudad>San Sebastián</ciudad>
-      <entrenador>Imanol Alguacil</entrenador>
-      <camiseta>Txuri-urdin</camiseta>
-    </equipo>
-    <equipo>Sevilla FC</equipo>
-      <ciudad>Sevilla</ciudad>
-      <entrenador>Julen Lopetegui</entrenador>
-      <camiseta>Blanquirroja</camiseta>
-    </equipo>
-    <equipo>Valencia CF</equipo>
-      <ciudad>Valencia</ciudad>
-      <entrenador>José Bordalás</entrenador>
-      <camiseta>Naranja y negra</цвета>
-    </equipo>
-    <equipo>Villarreal CF</equipo>
-      <ciudad>Villarreal</ciudad>
-      <entrenador>Unai Emery</entrenador>
-      <camiseta>Amarilla</camiseta>
-    </equipo>
+    </nombre>
   </equipos>

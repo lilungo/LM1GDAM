@@ -7,8 +7,8 @@
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/ico" href="../../favicon.ico">
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <title>Mensajería</title>
+    <meta name="Title" content="Mensajería" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
@@ -98,6 +98,9 @@
 		</table>
 
 	</main>
+	<footer>Fuente: <a href="https://javascript.solired.es/047%20-%20PROPUESTOS/6-Presupuesto-Mensajeria.html" class="enlacepie">Dirección URL de la web donde está el Script</a></footer>
+    </main>
+    <script>
 </body>
 
 </html>

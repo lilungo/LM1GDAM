@@ -7,70 +7,102 @@ html{
 	
     
     }
-
-
-#contenedor {
-    /*	width:992px;*/
-        margin-top: 20px;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-left: auto;
-        font-family: 'Quattrocento Sans', sans-serif;
-    }
-    #contenedor #contenido {
-        width: 630px;
-    /*	border: thin dotted #666;*/
-        position: relative;
-        text-align: center;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-    }
-    #resultado2 {
-        position: absolute;
-       left: 0px;
-        top: 140px;
-        width: 650px;
-        height: 600px;
-        z-index: 0;
-        border: 1px solid #F63;
-        padding: 10px;
-        overflow: auto;
-        text-align: left;
-        font-size: 1.1em;
-    }
-    #contenedor #contenido button {
-        color: #F63;
-    }
-        table{
-            
-            width:100%;
-            
+    #contenedor {
+        /*	width:992px;*/
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+            font-family: 'Quattrocento Sans', sans-serif;
         }
-        
+        #contenedor #contenido {
+            width: 630px;
+        /*	border: thin dotted #666;*/
+            position: relative;
+            text-align: center;
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+        }
+        #resultado2 {
+            position: absolute;
+            /* top: 210px; */
+            width: 610px;
+            height: 600px;
+            z-index: 0;
+            border: 1px solid rgb(179, 70, 169);
+            background-color: rgb(255, 58, 58);
+            padding: 10px;
+            overflow: auto;
+            text-align: left;
+            font-size: 0.9em;
+        }
+        #contenedor #contenido button {
+            color: black;
+        }
+            table{
+                
+                width:100%;
+                
+            }
             
+                
+                
+           
+        tr:nth-child(odd){
+            background: #1ec7f1;
+            color: #eeeeee;
+        }
+         
+        tr:nth-child(even){
+            background:#dee203;
+            color: #070707;
+        }
             
-       
-    tr:nth-child(odd){
-        background: #c07e62;
-        color: #FFFFFF;
+            tr.neutral{
+                background:#373333;
+            color:#faf9f9;
+             }
+    
+
+    a.enlacepie:link {
+        text-decoration: none;
+        color: lightpink;
     }
-     
-    tr:nth-child(even){
-        background:#d6d6d6;
-        color: #000000;
+
+    a.enlacepie:visited {
+        text-decoration: none;
+        color: lightpink;
     }
-        
-        tr.neutral{
-            background:#373333;
-        color:#faf9f9;
-         }
-    #nota {
-        position: absolute;
-        left: 36px;
-        top: -13px;
-        width: auto;
-        height: 154px;
-        z-index: 1;
+
+    a.enlacepie:hover {
+        text-decoration: underline;
+        color: lightpink;
+    }
+
+    a.enlacepie:active {
+        text-decoration: underline;
+        color: lightpink;
+    }
+
+
+    .equipo{
+        width: 87px;
+    }
+
+    .ciudad{
+        width: 800px;
+    }
+
+    .entrenador{
+        width: 73px;
+    }
+
+    .camiseta{
+        width: 20px;
+    }
+
+    .familiar{
+        width: 300px;
     }

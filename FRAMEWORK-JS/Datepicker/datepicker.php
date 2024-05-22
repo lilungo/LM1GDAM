@@ -4,8 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="language" content="es" >
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
+    <title>Datepicker</title>
+    <meta name="Title" content="Datepicker" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
@@ -20,13 +23,7 @@
 
     <link rel="stylesheet" href="../js.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
+    
 </head>
 
 <body>
@@ -41,17 +38,25 @@
 
         <!--A partir de aqui el contenido-->
 
-        <div class ="div-one">
-            <h1>Elige la fecha</h1>
-
-            <div class ="div-two">
-            
-            
-<p>Date: <input type="text" id="datepicker"></p>
+        <div>
+            <div class="caption animated zoomInDown">
+                <span class="border">Datepicker</span><br>
+                  <div class="todo">
+                    <div id="contenido">
+ 
+                        <form action="/action_page.php">
+                            <label for="birthday">Fecha:</label>
+                            <input type="date" id="birthday" name="birthday">
+                          </form>
+ 
+                    
+                    </div>
+                
+<!--                </span>-->
             </div>
-
-</div>
-<footer>Fuente: <a href="https://www.gieson.com/Library/projects/utilities/countdown/" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
+       
+        </div>
+        <footer>Fuente: <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
     </main>
 
 </body></html>

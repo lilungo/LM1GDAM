@@ -7,8 +7,8 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/ico" href="../../favicon.ico">
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <title>Procesador</title>
+    <meta name="Title" content="Procesador" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
@@ -104,4 +104,5 @@
     <textarea id="texto" placeholder="Escribe tu texto aqui..." autofocus></textarea>
         </div>
 </div>
+<footer>Fuente: <a href="https://javascript.solired.es/035%20-%20Formato%20Texto%20Controles%20de%20formulario%20-%20String.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
 </body></html>

@@ -4,8 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="language" content="es" >
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
+    <title>Reloj</title>
+    <meta name="Title" content="Reloj" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
@@ -27,15 +30,23 @@
 
         <?php include '../menu.php'; ?>
 
-        <div class="reloj">
-            <h5>Reloj</h5>
-            <p class="tiempo"></p>
+        <div>
+            <div class="caption animated zoomInDown">
+                <span class="border">Reloj</span><br>
+                    
+                    <div id="contenido">
+
+                    <div class="contenedor">
+  <div class="t">Hora:</div>
+  <div class="timeis" id="tm"></div>
+</div>
+<div class="desperta">
+  DESPERTADOR:<br/><br/> hora: <input type="text" id="hora"> minuto: <input type="text" id="minuto">
+  <button>OK!</button>
+</div>
+
         </div>
-        <script src="script.js"></script>
-
-
-
-        <footer>Fuente: <a href="https://www.gieson.com/Library/projects/utilities/countdown/" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
     </main>
+    <footer>Fuente: <a href="https://codepen.io/colombe/pen/gMqOmj" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>
 
 </body></html>

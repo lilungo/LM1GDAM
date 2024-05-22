@@ -4,12 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="language" content="es" >
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/ico" href="../../favicon.ico">
+    <title>Lightbox</title>
+    <meta name="Title" content="Lightbox" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
-    <meta name="author" content="Vuestro nombre" >
+    <meta name="author" content="Hugo Rivera" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 

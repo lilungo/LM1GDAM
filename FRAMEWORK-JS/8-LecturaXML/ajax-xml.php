@@ -7,8 +7,8 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/ico" href="../../favicon.ico">
-    <title>| DAM | - JAVASCRIPT</title>
-    <meta name="Title" content="| DAM | - JAVASCRIPT" >
+    <title>AJAX XML</title>
+    <meta name="Title" content="AJAX XML" >
     <meta name="description" content="Ejercicicios utilizando tecnologías WEB en el cliente" >
     <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JAVASCRIPT, PHP, SQL, Bases de datos, parallax, WEB, Accesibilidad" >
     <meta name="distribution" content="global" >
@@ -34,23 +34,27 @@
       
     </nav>
     
-<main>
+    <div>
+            <div class="caption animated zoomInDown">
+                <span class="border">Lectura de XML con Ajax</span><br>
+<!--                <span class="border">-->
                     
-<div id="contenedor">
+                  
+                    
+                    <div id="contenedor">
   <div id="contenido">
-  <div id="nota"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Lfp-logo-vector.png" width="120" height="120"></div>
+  <div id="nota"><img src="https://i.pinimg.com/originals/ee/a0/0c/eea00c75d4d2d9685a6495049b0b94ce.jpg" width="100" height="100"></div>
     
-    <h2>LA LIGA (AJAX + XML)</h2>
+    <h2>La Liga </h2>
      
-    <button type="button"  onclick="cargaXML()">Cargar Equipos de LaLiga</button>
-       <br /><br /><br />
+    <button type="button"  onclick="cargaXML();">Ver equipos</button>
+       <br/> 
       
       <table class="neutral"><tr class="neutral">
-        <th>Equipo</th> 
-        <th>Ciudad</th>   
-        <th>Entrenador</th> 
-        <th>Camiseta</th> 
-    
+        <th class="nombre">Equipo</th> 
+        <th class="ciudad">Ciudad</th>   
+        <th class="entrenador">Entrenador</th> 
+        <th class="camiseta">Camiseta</th>
       </tr>    
       
       </table>
@@ -59,6 +63,16 @@
   </div>
     
 </div>
-</main>
-</body>
-</html>
+                    
+                   
+                
+<!--                </span>-->
+            </div>
+
+        </div>
+        <footer>Fuente: <a href="https://javascript.solired.es/051-AJAX/3-micoleccion.html" class="enlacepie">Dirección URL de la web donde esté el Script</a></footer>    </main>
+    
+
+</body></html>  
+  
+

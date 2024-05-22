@@ -1,5 +1,6 @@
 function cargaXML()
 {
+
 	var conexion;
 	var txt,x,i;
 	
@@ -19,6 +20,7 @@ else
   {
  	 if (conexion.readyState==4 && conexion.status==200)
 	 //Recibido y preparado el server==4, todo ok ==200
+  //https://www.w3schools.com/xml/ajax_xmlhttprequest_response.asp
     {
    	 var xmlDoc=conexion.responseXML;
 	 
@@ -32,18 +34,19 @@ else
 	
         //Además, para que le bucle sea más sencillo de tratar en lugar de definir la variable titulo, la hemos reacondicionado por x
 	
-        x=xmlDoc.getElementsByTagName("equipo");
+        equipo=xmlDoc.getElementsByTagName("equipo");
         ciudad=xmlDoc.getElementsByTagName("ciudad");
         entrenador=xmlDoc.getElementsByTagName("entrenador");
         camiseta=xmlDoc.getElementsByTagName("camiseta");
         
-    
+/*         anio=xmlDoc.getElementsByTagName("anio");
+ */    
 	//Creamos el bucle en el que incluimos la tabla (variable txt) y pintamos línea a línea el primer nodo de cada índice del array que representan los elementos en el XML
         
 	
-    for (i=0;i<x.length;i++)
+    for (i=0;i<equipo.length;i++)
       {
-      txt=txt + "<tr><td>" + x[i].childNodes[0].nodeValue +"</td><td>"+ ciudad[i].childNodes[0].nodeValue +"</td><td>"+ entrenador[i].childNodes[0].nodeValue+ "</td><td>"+ camiseta[i].childNodes[0].nodeValue+ "</td><td>";
+        txt=txt + "<tr><td>" + equipo[i].childNodes[0].nodeValue +"</td><td>"+ ciudad[i].childNodes[0].nodeValue+ "</td><td>"+ entrenador[i].childNodes[0].nodeValue+ "</td><td>"+ camiseta[i].childNodes[0].nodeValue+ "</td><td>";
        }
     document.getElementById("resultado2").innerHTML=txt;
     }

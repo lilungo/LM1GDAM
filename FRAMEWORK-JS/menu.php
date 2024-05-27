@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <a href="../parallax/parallax.php">Parallax</a>
+            <a href="../Parallax/parallax.php">Parallax</a>
             <a href="../jquery/jquery.php">JQuery</a>
 <!--
 <div class="dropdown">
